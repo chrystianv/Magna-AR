@@ -1,4 +1,4 @@
- # Physics Toolbox AR
+ # Magna-AR
 
  This app, designed to educate students in high school and higher education about 3-D magnetic fields, is funded by the Cyberlearning program of the National Science Foundation, grant [NSF#1822728](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1822728&HistoricalAwards=false).
 
