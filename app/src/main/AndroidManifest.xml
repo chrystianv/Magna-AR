@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.vieyrasoftware.net.physicstoolboxfieldvisualizer.android">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera.ar" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/main"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/main_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.compass.CompassActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+
+        <activity
+            android:name=".activities.VisualizerActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activities.onboarding.LaunchScreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.settings.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/Preferences" />
+        <activity
+            android:name=".activities.DemagnetizeActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/Preferences" />
+        <activity
+            android:name=".activities.MagnetometerDescriptionActivity"
+            android:label="Description"
+            android:noHistory="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.ProjectTeamActivity"
+            android:label="Description"
+            android:noHistory="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.onboarding.OnBoardingActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

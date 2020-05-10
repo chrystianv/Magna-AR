@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/background_dark">
+
+    <PreferenceCategory android:title="@string/visualization">
+        <CheckBoxPreference
+            android:title="@string/colored_spheres"
+            android:defaultValue="false"
+            android:summary="@string/sphere_description"
+            android:key="spheres" />
+
+        <CheckBoxPreference
+            android:title="@string/colored_arrows"
+            android:defaultValue="true"
+            android:summary="@string/arrow_description"
+            android:key="arrows" />
+
+        <SwitchPreference
+            android:title="@string/numerical_value"
+            android:defaultValue="false"
+            android:summary="@string/numeric_description"
+            android:key="numerical" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="heatmap_switch"
+            android:title="Heatmap"
+            android:summary="Display heatmap scale."/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/calibrate">
+        <Preference
+            android:key="demagnetize_device"
+            android:title="@string/calibrate"
+            android:selectable="true"
+
+            android:enabled="true"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/global">
+        <Preference
+            android:key="mapone"
+            android:title="@string/field_intensity"
+            android:selectable="true"
+            android:summary="@string/map_intensity_description"
+            android:enabled="true"
+            />
+
+        <Preference
+            android:key="maptwo"
+            android:title="@string/map_inclination"
+            android:selectable="true"
+            android:summary="@string/map_inclination_description"
+            android:enabled="true"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/tutorial">
+        <Preference
+            android:key="tutorialvideo"
+            android:title="Tutorial video"
+            android:selectable="true"
+
+            android:enabled="true"
+            />
+
+        <Preference
+            android:key="tutorial"
+            android:title="@string/tutorial"
+            android:selectable="true"
+
+            android:enabled="true"
+            />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/feedback">
+        <Preference
+            android:icon="@drawable/email"
+            android:key="email_developer"
+            android:title="@string/emaildeveloper" />
+
+        <Preference
+            android:icon="@drawable/webbrowser"
+            android:key="website"
+            android:title="@string/usage_resources" />
+
+
+    </PreferenceCategory>
+
+
+
+
+    <PreferenceCategory android:title="@string/about">
+
+        <EditTextPreference
+            android:enabled="false"
+            android:key="version"
+            android:persistent="false"
+            android:selectable="true"
+            android:shouldDisableView="false"
+
+            android:title="Version: 2020-05-10" />
+
+        <Preference
+            android:title="@string/open_source_licenses"
+            android:key="licenses"
+            android:shouldDisableView="false"
+            android:persistent="false"
+            android:selectable="true"
+
+            android:enabled="true" />
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="team"
+        android:title="@string/meet_team" />
+
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+material {
+    name: "Custom material",
+    parameters: [
+        {
+            type: "sampler2d",
+            name: "andyColor"
+        },
+        {
+            type: "float",
+            name: "alphaFactor"
+        }
+    ],
+    requires: [
+        "position",
+        "uv0"
+    ],
+    shadingModel: "unlit",
+    blending: "transparent"
+}
+
+fragment {
+    void material(inout MaterialInputs material) {
+        prepareMaterial(material);
+        float3 texSample = texture(materialParams_andyColor, getUV0()).rgb;
+        material.baseColor.rgb = texSample;
+        material.baseColor.a *= materialParams.alphaFactor;
+    }
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#f44336</color>
+
+    <color name="green">#63e977</color>
+    <color name="upload_red_button">#df0000</color>
+    <color name="blue">#007aff</color>
+    <color name="orange">#f8881f</color>
+    <color name="black">#000000</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="camera_gray_background">#8C2e2e2e</color>
+    <color name="default_measurements_background_unpressed">#8C00b050</color>
+    <color name="default_measurements_background_pressed">#00b050</color>
+    <color name="measurements_camera_photo_background_unpressed">#8C000000</color>
+    <color name="measurements_camera_photo_background_pressed">#ff9b00</color>
+    <color name="measurements_button_back_pressed">#ff9b00</color>
+    <color name="measurements_button_back_unpressed">#8Cff9b00</color>
+    <color name="camera_gray_background_tests">#1A2e2e2e</color>
+    <color name="helps_text_color">#FFFFFF</color>
+    <color name="helps_scrollbar_color">#8CFFFFFF</color>
+    <!--<color name="helps_unchecked_color">#7a7a7f</color>-->
+    <color name="helps_unchecked_color">#FFFFFF</color>
+    <color name="helps_checked_color">#FFFFFF</color>
+    <color name="spinner_dialog_message_color">@color/white</color>
+    <color name="ar_text_background_color">#B3000000</color>
+    <color name="red">#df0000</color>
+    <color name="measurements_button_cancel_pressed">#ff9b00</color>
+    <color name="measurements_button_cancel_unpressed">#8C000000</color>
+    <color name="colorOrange">#FF9B00</color>
+    <color name="yellow">#FFFF00</color>
+
+
+    <!-- "check in"/"check out" switch colors -->
+    <color name="check_switch_off_btn">#FFFFFF</color>
+    <color name="check_switch_off_text">#000000</color>
+    <color name="check_switch_on_btn">#58b21d</color>
+    <color name="check_switch_on_text">#FFFFFF</color>
+
+    <color name="check_switch_on_btn_alpha">#7D000000</color>
+    <color name="check_switch_off_btn_alpha">#A0FFFFFF</color>
+    <color name="check_switch_off_text_alpha">#7D000000</color>
+    <color name="check_switch_on_text_alpha">#A0FFFFFF</color>
+
+    <color name="ar_check_switch_on_btn">@color/default_measurements_background_pressed</color>
+    <color name="ar_check_switch_standart_text_color">@color/white</color>
+    <color name="ar_check_switch_metric_text_color">@color/black</color>
+    <color name="background">#263238</color>
+
+    <color name="settings_background">#212121</color>
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_padding">20dp</dimen>
+    <dimen name="rotate_message_margin_left">20dp</dimen>
+    <dimen name="landscape_warning_text_size">12sp</dimen>
+    <dimen name="ar_focus_button_width">80dp</dimen>
+    <dimen name="ar_focus_button_height">80dp</dimen>
+    <dimen name="ar_photo_button_width">80dp</dimen>
+    <dimen name="ar_photo_button_height">80dp</dimen>
+    <dimen name="ar_photo_camera_src_padding">22dp</dimen>
+    <dimen name="ar_focus_src_padding">22dp</dimen>
+    <dimen name="ar_video_icon_size">27dp</dimen>
+    <dimen name="ar_button_text_size">14sp</dimen>
+    <dimen name="ar_clear_icon_size">27dp</dimen>
+    <dimen name="ar_top_bar_icon_size">25dp</dimen>
+    <dimen name="corner_margin">10dp</dimen>
+    <dimen name="ar_switcher_left_hint_margin_left">15dp</dimen>
+    <dimen name="ar_switcher_left_hint_margin_right">10dp</dimen>
+    <dimen name="ar_switcher_hint_text_size">12sp</dimen>
+    <dimen name="assistance_icon_triangle_size">14dp</dimen>
+</resources>

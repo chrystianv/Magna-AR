@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item
+            android:title="@string/restart"
+            android:orderInCategory="100"
+            android:id="@+id/menu_restart"
+            android:icon="@drawable/restart_icon"
+            app:showAsAction="always" />
+
+
+
+    <item
+        android:title="Compass"
+        android:orderInCategory="94"
+        android:id="@+id/menu_compass"
+        app:showAsAction="always"
+        android:icon="@drawable/compass_icon" />
+
+
+    <item
+        android:title="Info"
+        android:orderInCategory="95"
+        android:id="@+id/menu_info"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_info" />
+
+    <item
+        android:title="@string/settings"
+        android:orderInCategory="100"
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        app:showAsAction="always" />
+
+
+
+    </menu>

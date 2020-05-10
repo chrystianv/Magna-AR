@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Remove default toolbar_compass for set custom -->
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+
+
+    <!-- base switch (check in/ check out)-->
+    <style name="SwitchCheckinOFFTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">7sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/check_switch_off_text</item>
+    </style>
+
+    <style name="SwitchCheckinONTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">7sp</item>
+        <item name="android:textColor">@color/check_switch_on_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SwitchArStandart" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/ar_check_switch_standart_text_color</item>
+    </style>
+
+    <style name="SwitchArMetric" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/ar_check_switch_metric_text_color</item>
+    </style>
+
+    <style name="Preferences" parent="Theme.MaterialComponents">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <!-- Remove default toolbar_compass for set custom -->
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:background">@color/settings_background</item>
+
+
+
+
+    </style>
+
+
+</resources>
