@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AppCompat bridge for ToolIconography.Compass; keep path data identical. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+    <path
+        android:pathData="M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M15.9 8.1l-2.2 5.6-5.6 2.2 2.2-5.6z"
+        android:fillColor="#FF000000" />
+</vector>

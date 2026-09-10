@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">Er is een onverwachte fout opgetreden bij het hervatten van de AR-sessie. Start de app opnieuw op.</string>
+    <string name="error_title">Onverwachte fout</string>
+    <string name="close">Sluiten</string>
+    <string name="retry">Opnieuw proberen</string>
+    <string name="arcore_error_message">ARCore heeft een probleem ondervonden bij het hervatten van de AR-sessie. Dit kan komen door een apparaatspecifiek compatibiliteitsprobleem of een tijdelijke onderbreking van de ARCore-service.\n\nStart de app opnieuw op of werk Google Play Services voor AR bij.</string>
+    <string name="arcore_error_title">ARCore-fout</string>
+    <string name="stopped_adding_vectors">Automatisch toevoegen van vectoren gestopt.</string>
+
+
+    <string name="tap_vectors">Automatisch toevoegen van vectoren gestart. Tik opnieuw op de knop om te stoppen.</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Tik ergens om een veldvector te plaatsen</string>
+
+    <string name="permission_ar_visualizer_body">De magnetometer van je telefoon meet het lokale magnetische veld. De camera verankert veldvectoren in je omgeving.</string>
+    <string name="permission_ar_visualizer_headline">Ontdek de magnetische velden om je heen</string>
+    <string name="restart">Opnieuw starten</string>
+    <string name="heatmap_low">Laag</string>
+    <string name="heatmap_high">Hoog</string>
+
+    <string name="magnetic_field">Magnetische inductie (µT)</string>
+    <string name="auto_add_vectors">Vectoren automatisch toevoegen</string>
+    <string name="compass_northwest">NW</string>
+    <string name="ar_compass_northwest">Noordwest</string>
+
+
+
+
+
+    <string name="compass_west">W</string>
+    <string name="ar_compass_west">West</string>
+
+    <string name="compass_southwest">ZW</string>
+<string name="ar_compass_southwest">Zuidwest</string>
+
+    <string name="compass_south">Z</string>
+    <string name="ar_compass_south">Zuid</string>
+
+    <string name="compass_southeast">ZO</string>
+    <string name="ar_compass_southeast">Zuidoost</string>
+
+    <string name="compass_east">O</string>
+    <string name="ar_compass_east">Oost</string>
+
+    <string name="compass_northeast">NO</string>
+    <string name="ar_compass_northeast">Noordoost</string>
+
+    <string name="compass_north">N</string>
+    <string name="ar_compass_north">Noord</string>
+
+    <string name="ar_compass_title">AR Kompas</string>
+
+    <string name="magna_ar_tutorial_got_it">Begrepen!</string>
+
+    <string name="ar_compass_onboarding_body">De markeringen voor noord, zuid, oost en west zweven op ooghoogte in de lucht om je heen. Houd je telefoon rechtop, richt de camera op de horizon en draai langzaam een volledig rondje om ze allemaal te vinden.</string>
+
+    <string name="ar_compass_onboarding_title">Kijk om je heen op ooghoogte</string>
+
+    <string name="ar_compass_tilt_hint">Richt de camera op de horizon om de richtingsmarkeringen te zien</string>
+
+
+    <string name="ar_compass_instructions">Draai langzaam rond en kijk om je heen om de richtingsmarkeringen te zien die in de ruimte verankerd zijn.</string>
+
+    <string name="ar_compass_heading_label">Koers</string>
+
+
+    <string name="version">Versie</string>
+    <string name="about">Over</string>
+    <string name="usage_resources">Website</string>
+<string name="emaildeveloper">Stuur een e-mail naar ontwikkelaar</string>
+    <string name="feedback">Terugkoppeling</string>
+    <string name="heatmap_summary">Geef de heatmap-schaal weer.</string>
+
+
+    <string name="heatmap">Heatmap</string>
+
+    <string name="numeric_description">Geef de numerieke waarde van het magnetische veld boven de pijlen of bollen weer.</string>
+
+    <string name="numerical_value">Numerieke waarde</string>
+
+    <string name="visualization">Visualisatie</string>
+<string name="settings">Instellingen</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR is ontwikkeld met de steun van de National Science Foundation award #NSF#1822728 in samenwerking met de volgende partners:</string>
+
+    <string name="back">TERUG</string>
+
+<string name="meet_team">Ontmoet het team</string>
+
+    <string name="unknown_tracking_failure_reason">Onbekende reden voor tracking-fout: %1$s</string>
+
+    <string name="insufficient_features_message">Kan niets vinden. Richt het apparaat op een oppervlak met meer textuur of kleur.</string>
+
+    <string name="excessive_motion_message">Te snel bewegen. Vertraag.</string>
+
+    <string name="insufficient_light_message">Te donker. Probeer naar een goed verlicht gebied te gaan.</string>
+
+    <string name="bad_state_message">Tracking verloren vanwege een slechte interne status. Probeer de AR-ervaring opnieuw te starten.</string>
+
+    <string name="no_email_app_found">Er is geen e-mailapp geïnstalleerd. Je kunt ons bereiken op %1$s</string>
+    </resources>

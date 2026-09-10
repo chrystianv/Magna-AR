@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="magna_ar_snapshot_failed">No se pudo capturar la imagen. Inténtalo de nuevo.</string>
+  <string name="magna_ar_share_snapshot">Compartir imagen de Magna-AR</string>
+  <string name="adding_vectors_status">Añadiendo vectores…</string>
+  <string name="magna_ar_capture_snapshot">Capturar imagen de Magna-AR</string>
+  <string name="meet_development_team_description">Conoce al equipo de desarrollo</string>
+  <string name="unknown">Desconocido</string>
+  <string name="international_advisory_board">Consejo asesor internacional</string>
+  <string name="android_developer_role">Desarrollador de Android</string>
+  <string name="ios_developer_role">Desarrollador de iOS</string>
+  <string name="development_team">Equipo de desarrollo</string>
+  <string name="senior_personnel_role">personal sénior</string>
+  <string name="co_principal_investigator_role">coinvestigador principal</string>
+  <string name="principal_investigator_role">investigador principal</string>
+  <string name="principal_investigators">Investigadores principales</string>
+  <string name="leadership_and_development_team">Equipo de dirección y desarrollo</string>
+  <string name="partner_organizations">Organizaciones colaboradoras</string>
+  <string name="nsf_grant_project">Proyecto financiado por la NSF</string>
+  <string name="ar_opengl_version_required">La visualización en RA requiere OpenGL ES 3.0 o posterior.</string>
+</resources>

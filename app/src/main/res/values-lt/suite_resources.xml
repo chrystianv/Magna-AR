@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">Atnaujinant AR sesiją įvyko netikėta klaida. Bandykite iš naujo paleisti programą.</string>
+
+<string name="error_title">Netikėta klaida</string>
+
+<string name="close">Uždaryti</string>
+
+<string name="retry">Bandyti dar kartą</string>
+
+<string name="arcore_error_message">ARCore susidūrė su problema atnaujindamas AR sesiją. Tai gali būti dėl su įrenginiu susijusios suderinamumo problemos arba laikino ARCore paslaugos sutrikimo.\n\nBandykite iš naujo paleisti programą arba atnaujinkite „Google Play" paslaugas, skirtas AR.</string>
+
+<string name="arcore_error_title">ARCore klaida</string>
+
+<string name="stopped_adding_vectors">Automatinis vektorių pridėjimas sustabdytas.</string>
+<string name="tap_vectors">Pradėtas automatinis vektorių pridėjimas. Paspauskite mygtuką dar kartą, kad sustabdytumėte.</string>
+
+    <string name="magna_ar" translatable="false">Magna-AR</string>
+
+<string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Bakstelėkite bet kur, kad padėtumėte lauko vektorių</string>
+
+    <string name="permission_ar_visualizer_body">Telefono magnetometras matuoja vietinį magnetinį lauką. Kamera pritvirtina lauko vektorius jūsų aplinkoje.</string>
+
+<string name="permission_ar_visualizer_headline">Tyrinėkite aplink jus esančius magnetinius laukus</string>
+    <string name="restart">Paleisti iš naujo</string>
+<string name="heatmap_low">Žemas</string>
+
+    <string name="heatmap_high">Aukštas</string>
+
+    <string name="magnetic_field">Magnetinis laukas (µT)</string>
+
+
+<string name="auto_add_vectors">Automatiškai pridėti vektorius</string>
+    <string name="compass_northwest">ŠV</string>
+
+<string name="ar_compass_northwest">Šiaurės vakarai</string>
+
+
+
+
+
+    <string name="compass_west">V</string>
+
+<string name="ar_compass_west">Vakarai</string>
+
+    <string name="compass_southwest">PV</string>
+
+<string name="ar_compass_southwest">Pietvakariai</string>
+
+    <string name="compass_south">P</string>
+
+<string name="ar_compass_south">Pietūs</string>
+
+    <string name="compass_southeast">PR</string>
+
+<string name="ar_compass_southeast">Pietryčiai</string>
+
+    <string name="compass_east">R</string>
+
+<string name="ar_compass_east">Rytai</string>
+
+    <string name="compass_northeast">ŠR</string>
+
+<string name="ar_compass_northeast">Šiaurės rytai</string>
+
+    <string name="compass_north">Š</string>
+
+<string name="ar_compass_north">Šiaurė</string>
+
+    <string name="ar_compass_title">AR Kompasas</string>
+
+    <string name="magna_ar_tutorial_got_it">Supratau!</string>
+
+<string name="ar_compass_onboarding_body">Šiaurės, pietų, rytų ir vakarų žymekliai sklando ore aplink jus akių lygyje. Laikykite telefoną vertikaliai, nukreipkite kamerą į horizontą ir lėtai apsisukite visą ratą, kad rastumėte juos visus.</string>
+
+    <string name="ar_compass_onboarding_title">Apsidairykite akių lygyje</string>
+
+    <string name="ar_compass_tilt_hint">Nukreipkite kamerą į horizontą, kad pamatytumėte krypčių žymeklius</string>
+
+
+    <string name="ar_compass_instructions">Lėtai sukitės ir žiūrėkite aplinkui, kad pamatytumėte erdvėje fiksuotus krypčių žymeklius.</string>
+
+    <string name="ar_compass_heading_label">Kryptis</string>
+
+
+    <string name="version">Versija</string>
+
+<string name="about">Apie</string>
+
+<string name="usage_resources">Svetainė</string>
+
+<string name="emaildeveloper">Parašyti kūrėjui el. paštu</string>
+
+<string name="feedback">Grįžtamasis ryšys</string>
+
+<string name="heatmap_summary">Rodyti šilumos žemėlapio skalę.</string>
+
+    <string name="heatmap">Šilumos žemėlapis</string>
+
+    <string name="numeric_description">Rodyti skaitinę magnetinio lauko reikšmę virš rodyklių arba sferų.</string>
+
+    <string name="numerical_value">Skaitinė reikšmė</string>
+
+    <string name="visualization">Vizualizacija</string>
+
+    <string name="settings">Nustatymai</string>
+
+<string name="magna_ar_description">Magna-AR sukurta remiant Nacionalinio mokslo fondo apdovanojimui #NSF#1822728, bendradarbiaujant su šiais partneriais:</string>
+
+    <string name="back">Atgal</string>
+
+<string name="meet_team">Susipažinkite su komanda</string>
+
+    <string name="unknown_tracking_failure_reason">Nežinoma sekimo klaidos priežastis: %1$s</string>
+
+    <string name="insufficient_features_message">Nepavyksta nieko rasti. Nukreipkite prietaisą į paviršių su daugiau tekstūros ar spalvos.</string>
+
+    <string name="excessive_motion_message">Judama per greitai. Sulėtinkite.</string>
+
+    <string name="insufficient_light_message">Per tamsu. Pabandykite pereiti į geriau apšviestą vietą.</string>
+
+    <string name="bad_state_message">Sekimas prarastas dėl blogos vidinės būsenos. Pabandykite iš naujo paleisti AR patirtį.</string>
+
+    <string name="no_email_app_found">Nėra įdiegtos el. pašto programos. Galite susisiekti su mumis adresu %1$s</string>
+    </resources>

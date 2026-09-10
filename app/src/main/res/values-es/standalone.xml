@@ -1,0 +1,9 @@
+<resources>
+    <string name="launch_welcome">Explora campos magnéticos en realidad aumentada. La cámara permite colocar vectores magnéticos en tu entorno; las imágenes solo se comparten cuando tú lo decides.</string>
+    <string name="launch_camera_required">Se necesita acceso a la cámara para mostrar los campos magnéticos en tu entorno. Permite el acceso para continuar.</string>
+    <string name="launch_allow_camera">Permitir acceso a la cámara</string>
+    <string name="launch_start">Comenzar a explorar</string>
+    <string name="launch_missing_sensor">Este dispositivo no tiene magnetómetro. Magna-AR necesita este sensor para medir campos magnéticos.</string>
+    <string name="launch_unsupported">Este dispositivo no admite realidad aumentada con los Servicios de Google Play para RA.</string>
+    <string name="launch_check_failed">No se pudo iniciar la realidad aumentada. Comprueba tu conexión y los Servicios de Google Play para RA e inténtalo de nuevo.</string>
+</resources>

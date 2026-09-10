@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Color state list for Material 3 toggle button (primary action) -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Checked/Active state - uses accent color -->
+    <item android:color="@color/material3_button_primary_checked" android:state_checked="true" />
+    <!-- Default/Unchecked state - uses primary dark background -->
+    <item android:color="@color/material3_button_primary" />
+</selector>

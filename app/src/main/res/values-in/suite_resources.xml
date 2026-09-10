@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">Terjadi kesalahan tak terduga saat melanjutkan sesi AR. Coba mulai ulang aplikasi.</string>
+
+
+    <string name="error_title">Kesalahan Tak Terduga</string>
+    <string name="close">Tutup</string>
+    <string name="retry">Coba lagi</string>
+    <string name="arcore_error_message">ARCore mengalami masalah saat melanjutkan sesi AR. Hal ini mungkin disebabkan oleh masalah kompatibilitas khusus perangkat atau gangguan sementara pada layanan ARCore.\n\nCoba mulai ulang aplikasi atau perbarui Layanan Google Play untuk AR.</string>
+    <string name="arcore_error_title">Kesalahan ARCore</string>
+    <string name="stopped_adding_vectors">Berhenti menambahkan vektor secara otomatis.</string>
+
+
+    <string name="tap_vectors">Mulai menambahkan vektor secara otomatis. Ketuk tombol lagi untuk berhenti.</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Ketuk di mana saja untuk menempatkan vektor medan</string>
+
+    <string name="permission_ar_visualizer_body">Magnetometer ponsel Anda mengukur medan magnet setempat. Kamera menambatkan vektor medan di lingkungan sekitar Anda.</string>
+    <string name="permission_ar_visualizer_headline">Jelajahi medan magnet di sekitar Anda</string>
+    <string name="restart">Restart</string>
+    <string name="heatmap_low">Rendah</string>
+    <string name="heatmap_high">Tinggi</string>
+
+    <string name="magnetic_field">Medan Magnet (µT)</string>
+
+
+
+
+      <string name="compass_northwest">BL</string>
+      <string name="ar_compass_northwest">Barat Laut</string>
+
+
+
+
+
+    <string name="compass_west">B</string>
+      <string name="ar_compass_west">Barat</string>
+
+    <string name="compass_southwest">BD</string>
+<string name="ar_compass_southwest">Barat Daya</string>
+
+    <string name="compass_south">S</string>
+      <string name="ar_compass_south">Selatan</string>
+
+    <string name="compass_southeast">TG</string>
+      <string name="ar_compass_southeast">Tenggara</string>
+
+    <string name="compass_east">T</string>
+      <string name="ar_compass_east">Timur</string>
+
+    <string name="compass_northeast">TL</string>
+      <string name="ar_compass_northeast">Timur Laut</string>
+
+    <string name="compass_north">U</string>
+      <string name="ar_compass_north">Utara</string>
+
+    <string name="ar_compass_title">Kompas AR</string>
+
+    <string name="magna_ar_tutorial_got_it">Mengerti!</string>
+
+    <string name="ar_compass_onboarding_body">Penanda Utara, Selatan, Timur, dan Barat melayang di udara di sekitar Anda setinggi mata. Pegang ponsel secara tegak, arahkan kamera ke cakrawala, dan berputarlah perlahan satu lingkaran penuh untuk menemukan semuanya.</string>
+
+    <string name="ar_compass_onboarding_title">Lihat sekeliling setinggi mata</string>
+
+    <string name="ar_compass_tilt_hint">Arahkan kamera ke cakrawala untuk melihat penanda arah</string>
+
+
+    <string name="ar_compass_instructions">Putar perlahan dan lihat sekeliling untuk melihat penanda arah yang berlabuh di ruang.</string>
+
+    <string name="ar_compass_heading_label">Arah</string>
+
+
+    <string name="version">Versi</string>
+    <string name="about">Tentang</string>
+      <string name="usage_resources">Website</string>
+
+
+<string name="emaildeveloper">E-mail Pengembang software</string>
+      <string name="feedback">Feedback</string>
+      <string name="heatmap_summary">Tampilkan skala peta panas.</string>
+
+
+    <string name="heatmap">Peta panas</string>
+
+    <string name="numeric_description">Tampilkan nilai numerik medan magnet di atas panah atau bola.</string>
+
+    <string name="numerical_value">Nilai numerik</string>
+
+    <string name="visualization">Visualisasi</string>
+<string name="settings">Pengaturan</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR dikembangkan dengan dukungan National Science Foundation penghargaan #NSF#1822728 bekerja sama dengan mitra berikut:</string>
+
+    <string name="back">KEMBALI</string>
+
+
+    <string name="meet_team">Kenali tim</string>
+
+    <string name="unknown_tracking_failure_reason">Alasan kegagalan pelacakan tidak diketahui: %1$s</string>
+
+    <string name="insufficient_features_message">Tidak dapat menemukan apa pun. Arahkan perangkat ke permukaan dengan lebih banyak tekstur atau warna.</string>
+
+    <string name="excessive_motion_message">Bergerak terlalu cepat. Perlambat.</string>
+
+    <string name="insufficient_light_message">Terlalu gelap. Coba pindah ke area yang cukup cahaya.</string>
+
+    <string name="bad_state_message">Pelacakan hilang karena status internal yang buruk. Silakan coba mulai ulang pengalaman AR.</string>
+
+    <string name="no_email_app_found">Tidak ada aplikasi email yang terpasang. Anda dapat menghubungi kami di %1$s</string>
+    </resources>

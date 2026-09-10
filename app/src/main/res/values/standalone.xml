@@ -1,0 +1,10 @@
+<resources>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <string name="launch_welcome">Explore magnetic fields in augmented reality. Camera access places magnetic vectors in your surroundings; images are shared only when you choose.</string>
+    <string name="launch_camera_required">Camera access is needed to display magnetic fields in your surroundings. Allow access to continue.</string>
+    <string name="launch_allow_camera">Allow camera access</string>
+    <string name="launch_start">Start exploring</string>
+    <string name="launch_missing_sensor">This device does not have a magnetometer. Magna-AR needs this sensor to measure magnetic fields.</string>
+    <string name="launch_unsupported">This device does not support augmented reality with Google Play Services for AR.</string>
+    <string name="launch_check_failed">Could not start augmented reality. Check your connection and Google Play Services for AR, then try again.</string>
+</resources>

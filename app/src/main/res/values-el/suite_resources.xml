@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">Παρουσιάστηκε απροσδόκητο σφάλμα κατά την επαναφορά της συνεδρίας AR. Δοκιμάστε να επανεκκινήσετε την εφαρμογή.</string>
+
+
+    <string name="error_title">Απροσδόκητο σφάλμα</string>
+    <string name="close">Κλείσιμο</string>
+    <string name="retry">Επανάληψη</string>
+    <string name="arcore_error_message">Το ARCore αντιμετώπισε πρόβλημα κατά την επαναφορά της συνεδρίας AR. Αυτό μπορεί να οφείλεται σε πρόβλημα συμβατότητας της συσκευής ή σε προσωρινή διακοπή της υπηρεσίας ARCore.\n\nΔοκιμάστε να επανεκκινήσετε την εφαρμογή ή να ενημερώσετε τις Υπηρεσίες Google Play για AR.</string>
+    <string name="arcore_error_title">Σφάλμα ARCore</string>
+    <string name="stopped_adding_vectors">Σταμάτησε η αυτόματη προσθήκη διανυσμάτων.</string>
+
+
+    <string name="tap_vectors">Ξεκίνησε η αυτόματη προσθήκη διανυσμάτων. Πατήστε ξανά το κουμπί για να σταματήσετε.</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Πατήστε οπουδήποτε για να τοποθετήσετε ένα διάνυσμα πεδίου</string>
+
+    <string name="permission_ar_visualizer_body">Το μαγνητόμετρο του τηλεφώνου σας μετρά το τοπικό μαγνητικό πεδίο. Η κάμερα αγκυρώνει διανύσματα του πεδίου στο περιβάλλον σας.</string>
+    <string name="permission_ar_visualizer_headline">Εξερευνήστε τα μαγνητικά πεδία γύρω σας</string>
+    <string name="restart">Επανεκίνηση</string>
+     <string name="heatmap_low">Χαμηλή</string>
+    <string name="heatmap_high">Υψηλή</string>
+
+    <string name="magnetic_field">Μαγνητικό πεδίο (µT)</string>
+
+
+    <string name="compass_northwest">ΒΔ</string>
+    <string name="ar_compass_northwest">Βορειοδυτικά</string>
+
+
+
+
+
+    <string name="compass_west">Δ</string>
+    <string name="ar_compass_west">Δύση</string>
+
+    <string name="compass_southwest">ΝΔ</string>
+
+<string name="ar_compass_southwest">Νοτιοδυτικά</string>
+
+    <string name="compass_south">Ν</string>
+
+    <string name="ar_compass_south">Νότος</string>
+
+    <string name="compass_southeast">ΝΑ</string>
+    <string name="ar_compass_southeast">Νοτιοανατολικά</string>
+
+    <string name="compass_east">Α</string>
+
+    <string name="ar_compass_east">Ανατολή</string>
+
+    <string name="compass_northeast">ΒΑ</string>
+    <string name="ar_compass_northeast">Βορειοανατολικά</string>
+
+    <string name="compass_north">Β</string>
+
+    <string name="ar_compass_north">Βορράς</string>
+
+    <string name="ar_compass_title">AR Πυξίδα</string>
+
+    <string name="magna_ar_tutorial_got_it">Κατάλαβα!</string>
+
+    <string name="ar_compass_onboarding_body">Οι δείκτες Βορρά, Νότου, Ανατολής και Δύσης αιωρούνται στον αέρα γύρω σας στο ύψος των ματιών. Κρατήστε το τηλέφωνο όρθιο, στρέψτε την κάμερα προς τον ορίζοντα και περιστραφείτε αργά σε έναν πλήρη κύκλο για να τους βρείτε όλους.</string>
+
+    <string name="ar_compass_onboarding_title">Κοιτάξτε γύρω σας στο ύψος των ματιών</string>
+
+    <string name="ar_compass_tilt_hint">Στρέψτε την κάμερα προς τον ορίζοντα για να δείτε τους δείκτες κατεύθυνσης</string>
+
+
+    <string name="ar_compass_instructions">Γυρίστε αργά και κοιτάξτε γύρω σας για να δείτε τους δείκτες κατεύθυνσης αγκυρωμένους στο χώρο.</string>
+
+    <string name="ar_compass_heading_label">Κατεύθυνση</string>
+
+
+    <string name="version">Έκδοση</string>
+    <string name="about">Πληροφορίες</string>
+
+    <string name="usage_resources">Ιστοσελίδα</string>
+
+<string name="emaildeveloper">E-mail στον προγραμματιστή</string>
+
+    <string name="feedback">Σχόλια</string>
+
+    <string name="heatmap_summary">Εμφάνιση της κλίμακας θερμικού χάρτη.</string>
+
+
+    <string name="heatmap">Θερμικός χάρτης</string>
+
+    <string name="numeric_description">Εμφάνιση της αριθμητικής τιμής του μαγνητικού πεδίου πάνω από τα βέλη ή τις σφαίρες.</string>
+
+    <string name="numerical_value">Αριθμητική τιμή</string>
+
+    <string name="visualization">Οπτικοποίηση</string>
+<string name="settings">Ρυθμίσεις</string>
+
+
+
+
+    <string name="magna_ar_description">Το Magna-AR αναπτύσσεται με την υποστήριξη του βραβείου National Science Foundation #NSF#1822728 σε συνεργασία με τους ακόλουθους συνεργάτες:</string>
+
+    <string name="back">ΠΙΣΩ</string>
+
+
+    <string name="meet_team">Γνωρίστε την ομάδα</string>
+
+    <string name="unknown_tracking_failure_reason">Άγνωστος λόγος αποτυχίας παρακολούθησης: %1$s</string>
+
+    <string name="insufficient_features_message">Δεν βρέθηκε τίποτα. Στοχεύστε τη συσκευή σε μια επιφάνεια με περισσότερη υφή ή χρώμα.</string>
+
+    <string name="excessive_motion_message">Κινείστε πολύ γρήγορα. Επιβραδύνετε.</string>
+
+    <string name="insufficient_light_message">Πολύ σκοτεινά. Δοκιμάστε να μετακινηθείτε σε καλά φωτισμένη περιοχή.</string>
+
+    <string name="bad_state_message">Η παρακολούθηση χάθηκε λόγω κακής εσωτερικής κατάστασης. Παρακαλώ δοκιμάστε να επανεκκινήσετε την εμπειρία AR.</string>
+
+    <string name="no_email_app_found">Δεν υπάρχει εγκατεστημένη εφαρμογή email. Μπορείτε να επικοινωνήσετε μαζί μας στο %1$s</string>
+    </resources>

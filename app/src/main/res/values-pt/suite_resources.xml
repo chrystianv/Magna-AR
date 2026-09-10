@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">Ocorreu um erro inesperado ao retomar a sessão de AR. Tente reiniciar o aplicativo.</string>
+    <string name="error_title">Erro inesperado</string>
+    <string name="close">Fechar</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="arcore_error_message">O ARCore encontrou um problema ao retomar a sessão de AR. Isso pode ser devido a um problema de compatibilidade específico do dispositivo ou a uma interrupção temporária do serviço ARCore.\n\nTente reiniciar o aplicativo ou atualizar o Google Play Services para AR.</string>
+    <string name="arcore_error_title">Erro do ARCore</string>
+    <string name="stopped_adding_vectors">Parou de adicionar vetores automaticamente.</string>
+
+
+    <string name="tap_vectors">Começou a adicionar vetores automaticamente. Toque no botão novamente para parar.</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Toque em qualquer lugar para posicionar um vetor de campo</string>
+
+    <string name="permission_ar_visualizer_body">O magnetômetro do celular mede o campo magnético local. A câmera ancora vetores de campo no ambiente ao seu redor.</string>
+    <string name="permission_ar_visualizer_headline">Explore os campos magnéticos ao seu redor</string>
+    <string name="restart">Reiniciar</string>
+    <string name="heatmap_low">Baixo</string>
+    <string name="heatmap_high">Alto</string>
+
+    <string name="magnetic_field">Campo Magnético (µT)</string>
+    <string name="auto_add_vectors">Adicionar vetores automaticamente</string>
+    <string name="compass_northwest">NO</string>
+    <string name="ar_compass_northwest">Noroeste</string>
+
+
+
+
+
+    <string name="compass_west">O</string>
+    <string name="ar_compass_west">Oeste</string>
+
+    <string name="compass_southwest">SO</string>
+<string name="ar_compass_southwest">Sudoeste</string>
+
+    <string name="compass_south">S</string>
+    <string name="ar_compass_south">Sul</string>
+
+    <string name="compass_southeast">SE</string>
+    <string name="ar_compass_southeast">Sudeste</string>
+
+    <string name="compass_east">E</string>
+    <string name="ar_compass_east">Leste</string>
+
+    <string name="compass_northeast">NE</string>
+    <string name="ar_compass_northeast">Nordeste</string>
+
+    <string name="compass_north">N</string>
+    <string name="ar_compass_north">Norte</string>
+
+    <string name="ar_compass_title">Bússola AR</string>
+
+    <string name="magna_ar_tutorial_got_it">Entendi!</string>
+
+    <string name="ar_compass_onboarding_body">Os marcadores de norte, sul, leste e oeste flutuam no ar ao seu redor na altura dos olhos. Segure o telefone na vertical, aponte a câmera para o horizonte e gire lentamente em um círculo completo para encontrar todos.</string>
+
+    <string name="ar_compass_onboarding_title">Olhe ao redor na altura dos olhos</string>
+
+    <string name="ar_compass_tilt_hint">Aponte a câmera para o horizonte para ver os marcadores de direção</string>
+
+
+    <string name="ar_compass_instructions">Gire lentamente e olhe ao redor para ver os marcadores de direção ancorados no espaço.</string>
+
+    <string name="ar_compass_heading_label">Direção</string>
+
+
+    <string name="version">Versão</string>
+    <string name="about">Acerca</string>
+    <string name="usage_resources">Site</string>
+<string name="emaildeveloper">Contactar o desenvolvedor via e-mail</string>
+    <string name="feedback">Retorno</string>
+    <string name="heatmap_summary">Exibir a escala do mapa de calor.</string>
+
+    <string name="heatmap">Mapa de calor</string>
+
+    <string name="numeric_description">Exibir o valor numérico do campo magnético acima das setas ou esferas.</string>
+
+    <string name="numerical_value">Valor numérico</string>
+
+    <string name="visualization">Visualização</string>
+<string name="settings">Configurações</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR é desenvolvido com o apoio da National Science Foundation prêmio #NSF#1822728 em colaboração com os seguintes parceiros:</string>
+
+    <string name="back">VOLTAR</string>
+
+<string name="meet_team">Conheça a equipe</string>
+
+    <string name="unknown_tracking_failure_reason">Razão desconhecida de falha no rastreamento: %1$s</string>
+
+    <string name="insufficient_features_message">Não é possível encontrar nada. Aponte o dispositivo para uma superfície com mais textura ou cor.</string>
+
+    <string name="excessive_motion_message">Movendo-se muito rápido. Diminua a velocidade.</string>
+
+    <string name="insufficient_light_message">Muito escuro. Tente mover-se para uma área bem iluminada.</string>
+
+    <string name="bad_state_message">Rastreamento perdido devido a mau estado interno. Por favor, tente reiniciar a experiência AR.</string>
+
+    <string name="no_email_app_found">Nenhum aplicativo de e-mail está instalado. Você pode falar conosco em %1$s</string>
+    </resources>

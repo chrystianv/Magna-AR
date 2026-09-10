@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">Při obnovování relace AR došlo k neočekávané chybě. Zkuste aplikaci restartovat.</string>
+
+
+    <string name="error_title">Neočekávaná chyba</string>
+    <string name="close">Zavřít</string>
+    <string name="retry">Zkusit znovu</string>
+    <string name="arcore_error_message">Při obnovování relace AR narazil ARCore na problém. Může to být způsobeno problémem s kompatibilitou konkrétního zařízení nebo dočasným výpadkem služby ARCore.\n\nZkuste aplikaci restartovat nebo aktualizovat Služby Google Play pro AR.</string>
+    <string name="arcore_error_title">Chyba ARCore</string>
+    <string name="stopped_adding_vectors">Automatické přidávání vektorů zastaveno.</string>
+
+
+    <string name="tap_vectors">Začalo automatické přidávání vektorů. Klepnutím na tlačítko znovu zastavíte.</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Klepněte kamkoli a umístěte vektor pole</string>
+
+    <string name="permission_ar_visualizer_body">Magnetometr telefonu měří místní magnetické pole. Kamera ukotvuje vektory pole ve vašem okolí.</string>
+    <string name="permission_ar_visualizer_headline">Prozkoumejte magnetická pole kolem sebe</string>
+    <string name="restart">Restartovat</string>
+    <string name="heatmap_low">Nízká</string>
+    <string name="heatmap_high">Vysoká</string>
+
+    <string name="magnetic_field">Magnetické pole (µT)</string>
+
+
+    <string name="compass_northwest">SZ</string>
+    <string name="ar_compass_northwest">Severozápad</string>
+
+
+
+
+
+    <string name="compass_west">Z</string>
+    <string name="ar_compass_west">Západ</string>
+
+    <string name="compass_southwest">JZ</string>
+
+<string name="ar_compass_southwest">Jihozápad</string>
+
+    <string name="compass_south">J</string>
+
+    <string name="ar_compass_south">Jih</string>
+
+    <string name="compass_southeast">JV</string>
+    <string name="ar_compass_southeast">Jihovýchod</string>
+
+    <string name="compass_east">V</string>
+
+    <string name="ar_compass_east">Východ</string>
+
+    <string name="compass_northeast">SV</string>
+    <string name="ar_compass_northeast">Severovýchod</string>
+
+    <string name="compass_north">S</string>
+
+    <string name="ar_compass_north">Sever</string>
+
+    <string name="ar_compass_title">AR Kompas</string>
+
+    <string name="magna_ar_tutorial_got_it">Rozumím!</string>
+
+    <string name="ar_compass_onboarding_body">Značky severu, jihu, východu a západu se vznášejí ve vzduchu kolem vás ve výšce očí. Držte telefon svisle, namiřte fotoaparát k obzoru a pomalu se otočte o celý kruh, abyste je všechny našli.</string>
+
+    <string name="ar_compass_onboarding_title">Rozhlédněte se ve výšce očí</string>
+
+    <string name="ar_compass_tilt_hint">Namiřte fotoaparát k obzoru, abyste viděli směrové značky</string>
+
+
+    <string name="ar_compass_instructions">Pomalu se otočte a rozhlédněte se, abyste našli směrové značky ukotvené v prostoru.</string>
+
+    <string name="ar_compass_heading_label">Směr</string>
+
+
+    <string name="version">Verze</string>
+    <string name="about">O aplikaci</string>
+
+    <string name="usage_resources">Zdroje na webu</string>
+
+<string name="emaildeveloper">E-mail vývojáři</string>
+
+    <string name="feedback">Zpětná vazba</string>
+
+    <string name="heatmap_summary">Zobrazit stupnici teplotní mapy.</string>
+
+    <string name="heatmap">Teplotní mapa</string>
+
+    <string name="numeric_description">Zobrazit číselnou hodnotu magnetického pole nad šipkami nebo koulemi.</string>
+
+    <string name="numerical_value">Číselná hodnota</string>
+
+    <string name="visualization">Vizualizace</string>
+<string name="settings">Nastavení</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR je vyvíjen s podporou National Science Foundation grant #NSF#1822728 ve spolupráci s následujícími partnery:</string>
+
+    <string name="back">ZPĚT</string>
+
+<string name="meet_team">Poznejte tým</string>
+
+    <string name="unknown_tracking_failure_reason">Neznámý důvod selhání sledování: %1$s</string>
+
+    <string name="insufficient_features_message">Nelze nic najít. Zaměřte zařízení na povrch s více texturou nebo barvou.</string>
+
+    <string name="excessive_motion_message">Příliš rychlý pohyb. Zpomalte.</string>
+
+    <string name="insufficient_light_message">Příliš tmavé. Zkuste se přesunout do dobře osvětlené oblasti.</string>
+
+    <string name="bad_state_message">Sledování ztraceno kvůli špatnému vnitřnímu stavu. Zkuste prosím restartovat AR zážitek.</string>
+
+    <string name="no_email_app_found">Není nainstalována žádná e-mailová aplikace. Můžete nás kontaktovat na %1$s</string>
+    </resources>

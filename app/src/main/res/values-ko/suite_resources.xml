@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">AR 세션을 재개하는 동안 예기치 않은 오류가 발생했습니다. 앱을 다시 시작해 보세요.</string>
+
+
+    <string name="error_title">예기치 않은 오류</string>
+    <string name="close">닫기</string>
+    <string name="retry">다시 시도</string>
+    <string name="arcore_error_message">AR 세션을 재개하는 동안 ARCore에 문제가 발생했습니다. 기기별 호환성 문제 또는 일시적인 ARCore 서비스 중단이 원인일 수 있습니다.\n\n앱을 다시 시작하거나 Google Play Services for AR을 업데이트해 보세요.</string>
+    <string name="arcore_error_title">ARCore 오류</string>
+    <string name="stopped_adding_vectors">벡터 자동 추가를 중지했습니다.</string>
+
+
+    <string name="tap_vectors">벡터 자동 추가를 시작했습니다. 중지하려면 버튼을 다시 탭하세요.</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">아무 곳이나 탭하여 자기장 벡터를 배치하세요</string>
+
+    <string name="permission_ar_visualizer_body">휴대전화의 자기계가 국소 자기장을 측정합니다. 카메라는 자기장 벡터를 주변 공간에 고정합니다.</string>
+    <string name="permission_ar_visualizer_headline">주변의 자기장을 탐구해 보세요</string>
+    <string name="restart">재시작</string>
+    <string name="heatmap_low">낮음</string>
+    <string name="heatmap_high">높음</string>
+
+    <string name="magnetic_field">자기장(µT)</string>
+
+
+    <string name="compass_northwest">북서</string>
+    <string name="ar_compass_northwest">북서</string>
+
+
+
+
+
+    <string name="compass_west">서</string>
+    <string name="ar_compass_west">서</string>
+
+    <string name="compass_southwest">남서</string>
+<string name="ar_compass_southwest">남서</string>
+
+    <string name="compass_south">남</string>
+
+    <string name="ar_compass_south">남</string>
+
+    <string name="compass_southeast">남동</string>
+    <string name="ar_compass_southeast">남동</string>
+
+    <string name="compass_east">동</string>
+
+    <string name="ar_compass_east">동</string>
+
+    <string name="compass_northeast">북동</string>
+    <string name="ar_compass_northeast">북동</string>
+
+    <string name="compass_north">북</string>
+
+    <string name="ar_compass_north">북</string>
+
+    <string name="ar_compass_title">AR 나침반</string>
+
+    <string name="magna_ar_tutorial_got_it">알겠습니다!</string>
+
+    <string name="ar_compass_onboarding_body">북, 남, 동, 서 방향 표시가 눈높이에서 주변 공중에 떠 있습니다. 휴대폰을 세워 들고 카메라를 지평선 쪽으로 향한 다음, 천천히 한 바퀴 돌면서 모든 표시를 찾아보세요.</string>
+
+    <string name="ar_compass_onboarding_title">눈높이에서 주변을 둘러보세요</string>
+
+    <string name="ar_compass_tilt_hint">방향 표시를 보려면 카메라를 지평선 쪽으로 향하세요</string>
+
+
+    <string name="ar_compass_instructions">천천히 돌아서 주변을 둘러보며 공간에 고정된 방향 표시를 확인하세요.</string>
+
+    <string name="ar_compass_heading_label">방향</string>
+
+
+    <string name="version">버전</string>
+    <string name="about">정보</string>
+
+    <string name="usage_resources">사용 리소스</string>
+
+<string name="emaildeveloper">개발자에게 E-mail 보내기</string>
+
+    <string name="feedback">피드백</string>
+
+    <string name="heatmap_summary">히트맵 스케일을 표시합니다.</string>
+
+
+    <string name="heatmap">히트맵</string>
+
+    <string name="numeric_description">화살표 또는 구 위에 자기장의 숫자 값을 표시합니다.</string>
+
+    <string name="numerical_value">숫자 값</string>
+
+    <string name="visualization">시각화</string>
+<string name="settings">설정</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR은 다음 파트너와 협력하여 National Science Foundation 보조금 #NSF#1822728의 지원으로 개발되었습니다:</string>
+
+    <string name="back">뒤로</string>
+
+
+    <string name="meet_team">팀 만나기</string>
+
+    <string name="unknown_tracking_failure_reason">알 수 없는 추적 실패 이유: %1$s</string>
+
+    <string name="insufficient_features_message">아무것도 찾을 수 없습니다. 더 많은 질감이나 색상이 있는 표면으로 기기를 향하세요.</string>
+
+    <string name="excessive_motion_message">너무 빨리 움직입니다. 속도를 줄이세요.</string>
+
+    <string name="insufficient_light_message">너무 어둡습니다. 밝은 곳으로 이동해 보세요.</string>
+
+    <string name="bad_state_message">내부 상태가 나빠져서 추적이 손실되었습니다. AR 경험을 다시 시작해 보세요.</string>
+
+    <string name="no_email_app_found">이메일 앱이 설치되어 있지 않습니다. %1$s 로 연락해 주세요</string>
+    </resources>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">เกิดข้อผิดพลาดที่ไม่คาดคิดขณะกลับมาใช้งานเซสชัน AR โปรดลองรีสตาร์ทแอป</string>
+
+
+    <string name="error_title">ข้อผิดพลาดที่ไม่คาดคิด</string>
+    <string name="close">ปิด</string>
+    <string name="retry">ลองอีกครั้ง</string>
+    <string name="arcore_error_message">ARCore พบปัญหาขณะกลับมาใช้งานเซสชัน AR ซึ่งอาจเกิดจากปัญหาความเข้ากันได้เฉพาะของอุปกรณ์ หรือบริการ ARCore หยุดชะงักชั่วคราว\n\nโปรดลองรีสตาร์ทแอป หรืออัปเดต Google Play Services for AR</string>
+    <string name="arcore_error_title">ข้อผิดพลาด ARCore</string>
+    <string name="stopped_adding_vectors">หยุดการเพิ่มเวกเตอร์โดยอัตโนมัติแล้ว</string>
+
+
+    <string name="tap_vectors">เริ่มการเพิ่มเวกเตอร์โดยอัตโนมัติแล้ว แตะปุ่มอีกครั้งเพื่อหยุด</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">แตะที่ใดก็ได้เพื่อวางเวกเตอร์สนาม</string>
+
+    <string name="permission_ar_visualizer_body">เครื่องวัดสนามแม่เหล็กของโทรศัพท์วัดสนามแม่เหล็กเฉพาะที่ กล้องจะยึดเวกเตอร์สนามไว้ในสภาพแวดล้อมรอบตัวคุณ</string>
+    <string name="permission_ar_visualizer_headline">สำรวจสนามแม่เหล็กรอบตัวคุณ</string>
+    <string name="restart">เริ่มใหม่</string>
+    <string name="heatmap_low">ต่ำ</string>
+    <string name="heatmap_high">สูง</string>
+
+    <string name="magnetic_field">สนามแม่เหล็ก (µT)</string>
+
+
+    <string name="compass_northwest">ตต</string>
+    <string name="ar_compass_northwest">ตะวันตกเฉียงเหนือ</string>
+
+
+
+
+
+    <string name="compass_west">W</string>
+    <string name="ar_compass_west">ตะวันตก</string>
+
+    <string name="compass_southwest">อด</string>
+<string name="ar_compass_southwest">ตะวันตกเฉียงใต้</string>
+
+    <string name="compass_south">S</string>
+
+    <string name="ar_compass_south">ใต้</string>
+
+    <string name="compass_southeast">อต</string>
+    <string name="ar_compass_southeast">ตะวันออกเฉียงใต้</string>
+
+    <string name="compass_east">E</string>
+
+    <string name="ar_compass_east">ตะวันออก</string>
+
+    <string name="compass_northeast">ตอ</string>
+    <string name="ar_compass_northeast">ตะวันออกเฉียงเหนือ</string>
+
+    <string name="compass_north">N</string>
+
+    <string name="ar_compass_north">เหนือ</string>
+
+    <string name="ar_compass_title">เข็มทิศ AR</string>
+
+    <string name="magna_ar_tutorial_got_it">เข้าใจแล้ว!</string>
+
+    <string name="ar_compass_onboarding_body">เครื่องหมายทิศเหนือ ทิศใต้ ทิศตะวันออก และทิศตะวันตกลอยอยู่ในอากาศรอบตัวคุณที่ระดับสายตา ถือโทรศัพท์ในแนวตั้ง หันกล้องไปทางเส้นขอบฟ้า แล้วหมุนตัวช้าๆ ให้ครบหนึ่งรอบเพื่อหาให้ครบทุกทิศ</string>
+
+    <string name="ar_compass_onboarding_title">มองไปรอบๆ ที่ระดับสายตา</string>
+
+    <string name="ar_compass_tilt_hint">หันกล้องไปทางเส้นขอบฟ้าเพื่อดูเครื่องหมายทิศทาง</string>
+
+
+    <string name="ar_compass_instructions">หมุนตัวช้าๆ และมองไปรอบๆ เพื่อดูเครื่องหมายทิศทางที่ยึดอยู่ในพื้นที่</string>
+
+    <string name="ar_compass_heading_label">ทิศทาง</string>
+
+
+    <string name="version">เวอร์ชัน</string>
+    <string name="about">เกี่ยวกับ</string>
+
+    <string name="usage_resources">เว็บไซต์</string>
+
+<string name="emaildeveloper">อีเมลหาผู้พัฒนา</string>
+
+    <string name="feedback">ความคิดเห็น</string>
+
+    <string name="heatmap_summary">แสดงสเกลแผนที่ความร้อน</string>
+
+    <string name="heatmap">แผนที่ความร้อน</string>
+
+    <string name="numeric_description">แสดงค่าตัวเลขของสนามแม่เหล็กเหนือลูกศรหรือทรงกลม</string>
+
+    <string name="numerical_value">ค่าตัวเลข</string>
+
+    <string name="visualization">การแสดงภาพ</string>
+<string name="settings">การตั้งค่า</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR ได้รับการพัฒนาด้วยการสนับสนุนจาก National Science Foundation รางวัล #NSF#1822728 ร่วมกับพันธมิตรต่อไปนี้:</string>
+
+    <string name="back">ย้อนกลับ</string>
+
+<string name="meet_team">พบทีมงาน</string>
+
+    <string name="unknown_tracking_failure_reason">สาเหตุของความล้มเหลวในการติดตามที่ไม่ทราบ: %1$s</string>
+
+    <string name="insufficient_features_message">ไม่พบอะไรเลย เล็งอุปกรณ์ไปที่พื้นผิวที่มีพื้นผิวหรือสีมากขึ้น</string>
+
+    <string name="excessive_motion_message">เคลื่อนไหวเร็วเกินไป ช้าลง</string>
+
+    <string name="insufficient_light_message">มืดเกินไป ลองย้ายไปยังพื้นที่ที่มีแสงสว่างดี</string>
+
+    <string name="bad_state_message">การติดตามสูญหายเนื่องจากสถานะภายในไม่ดี โปรดลองรีสตาร์ทประสบการณ์ AR</string>
+
+    <string name="no_email_app_found">ไม่ได้ติดตั้งแอปอีเมล คุณสามารถติดต่อเราได้ที่ %1$s</string>
+    </resources>

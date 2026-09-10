@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">恢復 AR 工作階段時發生未預期的錯誤。請嘗試重新啟動應用程式。</string>
+
+
+    <string name="error_title">未預期的錯誤</string>
+    <string name="close">關閉</string>
+    <string name="retry">重試</string>
+    <string name="arcore_error_message">ARCore 在恢復 AR 工作階段時遇到問題。這可能是由於裝置特定的相容性問題或 ARCore 服務暫時中斷所致。\n\n請嘗試重新啟動應用程式或更新 Google Play Services for AR。</string>
+    <string name="arcore_error_title">ARCore 錯誤</string>
+    <string name="stopped_adding_vectors">停止自動添加向量。</string>
+
+
+    <string name="tap_vectors">開始自動添加向量。再次點擊按鈕停止。</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">點擊任意位置以放置磁場向量</string>
+
+    <string name="permission_ar_visualizer_body">手機的磁力計會測量局部磁場。相機會將磁場向量固定在周圍環境中。</string>
+    <string name="permission_ar_visualizer_headline">探索你周圍的磁場</string>
+    <string name="restart">重新開始</string>
+    <string name="heatmap_low">低</string>
+    <string name="heatmap_high">高</string>
+
+    <string name="magnetic_field">磁場(µT)</string>
+    <string name="compass_northwest">西北</string>
+    <string name="ar_compass_northwest">西北</string>
+
+
+
+
+
+    <string name="compass_west">西</string>
+    <string name="ar_compass_west">西</string>
+
+    <string name="compass_southwest">西南</string>
+<string name="ar_compass_southwest">西南</string>
+
+    <string name="compass_south">南</string>
+    <string name="ar_compass_south">南</string>
+
+    <string name="compass_southeast">東南</string>
+    <string name="ar_compass_southeast">東南</string>
+
+    <string name="compass_east">東</string>
+    <string name="ar_compass_east">東</string>
+
+    <string name="compass_northeast">東北</string>
+    <string name="ar_compass_northeast">東北</string>
+
+    <string name="compass_north">北</string>
+    <string name="ar_compass_north">北</string>
+
+    <string name="ar_compass_title">AR指南針</string>
+
+    <string name="magna_ar_tutorial_got_it">明白了!</string>
+
+    <string name="ar_compass_onboarding_body">北、南、東、西方向標記漂浮在您周圍與視線同高的空中。請將手機直立握持，將相機對準地平線，然後緩慢轉動一整圈，找到所有標記。</string>
+
+    <string name="ar_compass_onboarding_title">在視線高度環顧四周</string>
+
+    <string name="ar_compass_tilt_hint">將相機對準地平線即可看到方向標記</string>
+
+
+    <string name="ar_compass_instructions">慢慢轉身並環顧四周，以查看固定在空間中的方向標記。</string>
+
+    <string name="ar_compass_heading_label">方向</string>
+
+
+    <string name="version">版本</string>
+    <string name="about">關於</string>
+    <string name="usage_resources">網站</string>
+<string name="emaildeveloper">向開發者發送電子郵件</string>
+    <string name="feedback">反映意見</string>
+    <string name="heatmap_summary">顯示熱圖比例。</string>
+
+    <string name="heatmap">熱圖</string>
+
+    <string name="numeric_description">在箭頭或球體上方顯示磁場的數值。</string>
+
+    <string name="numerical_value">數值</string>
+
+    <string name="visualization">可視化</string>
+<string name="settings">設定</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR在National Science Foundation獎項#NSF#1822728的支持下開發,與以下合作夥伴合作:</string>
+
+    <string name="back">返回</string>
+
+<string name="meet_team">認識團隊</string>
+
+    <string name="unknown_tracking_failure_reason">未知的跟蹤失敗原因:%1$s</string>
+
+    <string name="insufficient_features_message">找不到任何東西。將裝置對準具有更多紋理或顏色的表面。</string>
+
+    <string name="excessive_motion_message">移動太快。放慢速度。</string>
+
+    <string name="insufficient_light_message">太暗。嘗試移動到光線充足的區域。</string>
+
+    <string name="bad_state_message">由於內部狀態不佳,跟蹤丟失。請嘗試重新啟動AR體驗。</string>
+
+    <string name="no_email_app_found">未安裝電郵應用程式。您可以透過 %1$s 與我們聯絡</string>
+    </resources>

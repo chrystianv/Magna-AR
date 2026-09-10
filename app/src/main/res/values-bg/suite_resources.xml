@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">Възникна неочаквана грешка при възобновяване на сесията AR. Моля, опитайте да рестартирате приложението.</string>
+    <string name="error_title">Неочаквана грешка</string>
+    <string name="close">Затваряне</string>
+    <string name="retry">Опитай отново</string>
+    <string name="arcore_error_message">ARCore срещна проблем при възобновяване на AR сесията. Причината може да е проблем със съвместимостта на устройството или временно прекъсване на услугата ARCore.\n\nМоля, опитайте да рестартирате приложението или да актуализирате Google Play Services за AR.</string>
+    <string name="arcore_error_title">Грешка в ARCore</string>
+    <string name="stopped_adding_vectors">Автоматичното добавяне на вектори е спряно.</string>
+    <string name="tap_vectors">Започна автоматично добавяне на вектори. Докоснете бутона отново, за да спрете.</string>
+    <string name="adding_vectors_status">Добавяне на вектори...</string>
+    <string name="total_mag_readout">%.0f µT</string>
+    <string name="tap_prompt_title">Докоснете произволно място, за да поставите вектор на полето</string>
+    <string name="permission_ar_visualizer_body">Магнитометърът на телефона измерва локалното магнитно поле. Камерата закрепва вектори на полето в обкръжението ви.</string>
+    <string name="permission_ar_visualizer_headline">Изследвайте магнитните полета около вас</string>
+    <string name="restart">Рестартирай</string>
+    <string name="heatmap_low">ниско</string>
+    <string name="heatmap_high">високо</string>
+    <string name="magnetic_field">Магнитно поле (µT)</string>
+    <string name="auto_add_vectors">Автоматично добавяне на вектори</string>
+    <string name="compass_northwest">СЗ</string>
+    <string name="ar_compass_northwest">Северозапад</string>
+
+    <string name="compass_west">З</string>
+    <string name="ar_compass_west">Запад</string>
+
+    <string name="compass_southwest">ЮЗ</string>
+<string name="ar_compass_southwest">Югозапад</string>
+
+    <string name="compass_south">Ю</string>
+    <string name="ar_compass_south">Юг</string>
+
+    <string name="compass_southeast">ЮИ</string>
+    <string name="ar_compass_southeast">Югоизток</string>
+
+    <string name="compass_east">И</string>
+    <string name="ar_compass_east">Изток</string>
+
+    <string name="compass_northeast">СИ</string>
+    <string name="ar_compass_northeast">Североизток</string>
+
+    <string name="compass_north">С</string>
+    <string name="ar_compass_north">Север</string>
+
+    <string name="ar_compass_title">AR компас</string>
+
+    <string name="magna_ar_tutorial_got_it">Разбрах!</string>
+
+    <string name="ar_compass_onboarding_body">Маркерите за север, юг, изток и запад се носят във въздуха около вас на нивото на очите. Дръжте телефона изправен, насочете камерата към хоризонта и се завъртете бавно в пълен кръг, за да ги откриете всичките.</string>
+
+    <string name="ar_compass_onboarding_title">Огледайте се на нивото на очите</string>
+
+    <string name="ar_compass_tilt_hint">Насочете камерата към хоризонта, за да видите маркерите за посока</string>
+    <string name="ar_compass_instructions">Завъртете се бавно и се огледайте, за да видите маркерите за посока, закрепени в пространството.</string>
+
+    <string name="ar_compass_heading_label">Посока</string>
+
+    <string name="meet_development_team_description">Запознайте се с екипа за разработка</string>
+    <string name="unknown">Неизвестна</string>
+    <string name="version">Версия</string>
+    <string name="about">Относно </string>
+    <string name="usage_resources">Ресурси за използване</string>
+<string name="emaildeveloper">имейл до разработчика</string>
+    <string name="feedback">Обратна връзка</string>
+    <string name="heatmap_summary">Показване на скалата на топлинната карта.</string>
+    <string name="heatmap">Топлинна карта</string>
+    <string name="numeric_description">Показване на числовата стойност на магнитното поле над стрелките.</string>
+    <string name="numerical_value">Числова стойност</string>
+    <string name="visualization">Визуализация</string>
+    <string name="settings">Настройки</string>
+    <string name="international_advisory_board">Международен консултативен съвет</string>
+    <string name="android_developer_role">Android разработчик</string>
+    <string name="ios_developer_role">iOS разработчик</string>
+    <string name="development_team">Екип за разработка</string>
+    <string name="senior_personnel_role">старши персонал</string>
+    <string name="co_principal_investigator_role">съглавен изследовател</string>
+    <string name="principal_investigator_role">главен изследовател</string>
+    <string name="principal_investigators">Главни изследователи</string>
+    <string name="leadership_and_development_team">Екип за лидерство и развитие</string>
+    <string name="partner_organizations">Партньорски организации</string>
+    <string name="magna_ar_description">Magna-AR е разработена с подкрепата на Националната научна фондация по грант #NSF#1822728 в сътрудничество със следните партньори:</string>
+    <string name="nsf_grant_project">Проект за грант на NSF</string>
+    <string name="back">НАЗАД</string>
+    <string name="meet_team">Запознайте се с екипа</string>
+    <string name="unknown_tracking_failure_reason">Неизвестна причина за неуспешно проследяване: %1$s</string>
+    <string name="insufficient_features_message">Не мога да намеря нищо. Насочете устройството към повърхност с повече текстура или цвят.</string>
+    <string name="excessive_motion_message">Движи се твърде бързо. По-бавно.</string>
+    <string name="insufficient_light_message">Твърде тъмно. Опитайте се да се преместите на добре осветено място.</string>
+    <string name="bad_state_message">Проследяването е загубено поради лошо вътрешно състояние. Моля, опитайте да рестартирате AR изживяването.</string>
+    <string name="no_email_app_found">Няма инсталирано приложение за имейл. Можете да се свържете с нас на %1$s</string>
+    </resources>

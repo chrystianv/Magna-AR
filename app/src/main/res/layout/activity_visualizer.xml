@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayoutMain"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/black"
+    >
+
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Magna-AR"
+        app:titleTextColor="@android:color/white" />
+
+    <!-- Status Indicator - positioned at bottom above buttons -->
+    <include
+        layout="@layout/status_indicator_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <net.vieyrasoftware.net.physicstoolboxfieldvisualizer.android.activities.visualizer.MagnaArSceneView
+        android:id="@+id/vr_fragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <!-- Text overlay for AR arrows -->
+    <net.vieyrasoftware.net.physicstoolboxfieldvisualizer.android.ar.ArrowTextOverlay
+        android:id="@+id/arrowTextOverlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <!-- Material 3 Digital Readout Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/blurLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/material3_readout_surface"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="@color/material3_readout_stroke"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <!-- Total Magnetic Field -->
+        <TextView
+            android:id="@+id/TotalMagneticTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text="@string/sample_field_45_microtesla"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:maxLines="1"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="14sp"
+            app:autoSizeMaxTextSize="24sp"
+            app:autoSizeStepGranularity="1sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.02" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- XYZ Components Container - Separate mini cards -->
+    <LinearLayout
+        android:id="@+id/xyzComponentsContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blurLayout">
+
+        <!-- X Component Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/redblur"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="@color/material3_component_x_surface"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp">
+
+                <TextView
+                    android:id="@+id/xtextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/axis_x_symbol"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+
+                <TextView
+                    android:id="@+id/xTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/sample_value_45"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:maxLines="1"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="10sp"
+                    app:autoSizeMaxTextSize="14sp"
+                    app:autoSizeStepGranularity="1sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Y Component Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/greenblur"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="@color/material3_component_y_surface"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp">
+
+                <TextView
+                    android:id="@+id/ytextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/axis_y_symbol"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+
+                <TextView
+                    android:id="@+id/yTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/sample_value_45"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:maxLines="1"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="10sp"
+                    app:autoSizeMaxTextSize="14sp"
+                    app:autoSizeStepGranularity="1sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Z Component Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/blueblur"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/material3_component_z_surface"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp">
+
+                <TextView
+                    android:id="@+id/ztextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/axis_z_symbol"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+
+                <TextView
+                    android:id="@+id/zTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/sample_value_45"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:maxLines="1"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="10sp"
+                    app:autoSizeMaxTextSize="14sp"
+                    app:autoSizeStepGranularity="1sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/compassButton"
+        style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+        android:layout_width="@dimen/button_size_material3"
+        android:layout_height="@dimen/button_size_material3"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/ar_compass_title"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        app:icon="@drawable/tool_ic_compass"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTint="@color/white"
+        app:backgroundTint="@color/material3_button_surface_tint"
+        app:layout_constraintBottom_toBottomOf="@+id/vr_fragment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/infoButton"
+        style="@style/Widget.Material3.Button.IconButton.Filled"
+        android:layout_width="@dimen/button_size_material3"
+        android:layout_height="@dimen/button_size_material3"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:checkable="true"
+        android:contentDescription="@string/auto_add_vectors"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        app:icon="@drawable/nav_ic_auto_add_vectors"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTint="@color/white"
+        app:backgroundTint="@color/material3_button_primary_toggle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full" />
+
+    <!-- Shutter-style capture control matching the center action on iOS. -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/snapshotButton"
+        style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="@string/magna_ar_capture_snapshot"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        app:backgroundTint="@android:color/transparent"
+        app:icon="@drawable/ic_camera_shutter"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="50dp"
+        app:iconTint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full"
+        app:strokeColor="@android:color/white"
+        app:strokeWidth="4dp" />
+
+    <ImageView
+        android:id="@+id/heatmapImage"
+        android:layout_width="47dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:alpha=".5"
+        android:contentDescription="@string/magnetic_field"
+        app:layout_constraintBottom_toTopOf="@+id/lowTextViewField"
+        app:layout_constraintEnd_toEndOf="@+id/vr_fragment"
+        app:layout_constraintHeight_max="323dp"
+        app:layout_constraintTop_toBottomOf="@+id/hightTextViewField" />
+
+    <TextView
+        android:id="@+id/hightTextViewField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/heatmap_high"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/heatmapImage"
+        app:layout_constraintEnd_toEndOf="@+id/vr_fragment"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/lowTextViewField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/heatmap_low"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/infoButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heatmapImage" />
+
+
+
+    <!-- Settings and Restart Buttons - Added at end for highest z-order -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/settingsButton"
+        style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+        android:layout_width="@dimen/button_size_material3"
+        android:layout_height="@dimen/button_size_material3"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/settings"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        app:icon="@drawable/nav_ic_settings"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTint="@color/white"
+        app:backgroundTint="@color/material3_button_surface_tint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/restartButton"
+        style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+        android:layout_width="@dimen/button_size_material3"
+        android:layout_height="@dimen/button_size_material3"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/restart"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        app:icon="@drawable/nav_ic_graph_restart"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTint="@color/white"
+        app:backgroundTint="@color/material3_button_surface_tint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full" />
+
+    <!--
+        First-use lesson rendered directly over the live camera. It deliberately
+        has no panel or scrim: shadows keep the copy readable while the camera
+        remains the visual context for the explanation.
+    -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/magnaOnboardingOverlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:importantForAccessibility="yes"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsButton">
+
+        <TextView
+            android:id="@+id/magnaOnboardingTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="28dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:shadowColor="#D9000000"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="6"
+            android:text="@string/permission_ar_visualizer_headline"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/magnaOnboardingBody"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="28dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:shadowColor="#E6000000"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="6"
+            android:text="@string/permission_ar_visualizer_body"
+            android:textColor="#E6FFFFFF"
+            android:textSize="15sp"
+            app:layout_constrainedHeight="true"
+            app:layout_constraintBottom_toTopOf="@+id/magnaOnboardingPrompt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/magnaOnboardingTitle"
+            app:layout_constraintVertical_bias="0" />
+
+        <LinearLayout
+            android:id="@+id/magnaOnboardingPrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="92dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:importantForAccessibility="no"
+                android:shadowColor="#E6000000"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text="↖"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:maxWidth="300dp"
+                android:shadowColor="#E6000000"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text="@string/tap_prompt_title"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">AR oturumu sürdürülürken beklenmeyen bir hata oluştu. Lütfen uygulamayı yeniden başlatmayı deneyin.</string>
+
+
+    <string name="error_title">Beklenmeyen Hata</string>
+    <string name="close">Kapat</string>
+    <string name="retry">Yeniden Dene</string>
+    <string name="arcore_error_message">ARCore, AR oturumu sürdürülürken bir sorunla karşılaştı. Bu, cihaza özgü bir uyumluluk sorunundan veya ARCore hizmetinin geçici olarak kesintiye uğramasından kaynaklanıyor olabilir.\n\nLütfen uygulamayı yeniden başlatmayı veya Google Play Services for AR\'ı güncellemeyi deneyin.</string>
+    <string name="arcore_error_title">ARCore Hatası</string>
+    <string name="stopped_adding_vectors">Vektörleri otomatik olarak ekleme durduruldu.</string>
+
+
+    <string name="tap_vectors">Vektörleri otomatik olarak eklemeye başladı. Durdurmak için düğmeye tekrar dokunun.</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Bir alan vektörü yerleştirmek için herhangi bir yere dokunun</string>
+
+    <string name="permission_ar_visualizer_body">Telefonunuzun manyetometresi yerel manyetik alanı ölçer. Kamera, alan vektörlerini çevrenize sabitler.</string>
+    <string name="permission_ar_visualizer_headline">Çevrenizdeki manyetik alanları keşfedin</string>
+    <string name="restart">Yeniden Başlat</string>
+    <string name="heatmap_low">Düşük</string>
+    <string name="heatmap_high">Yüksek</string>
+
+    <string name="magnetic_field">Manyetik Alan (µT)</string>
+
+
+    <string name="compass_northwest">KB</string>
+    <string name="ar_compass_northwest">Kuzeybatı</string>
+
+
+
+
+
+    <string name="compass_west">B</string>
+    <string name="ar_compass_west">Batı</string>
+
+    <string name="compass_southwest">GB</string>
+<string name="ar_compass_southwest">Güneybatı</string>
+
+    <string name="compass_south">G</string>
+
+    <string name="ar_compass_south">Güney</string>
+
+    <string name="compass_southeast">GD</string>
+    <string name="ar_compass_southeast">Güneydoğu</string>
+
+    <string name="compass_east">D</string>
+
+    <string name="ar_compass_east">Doğu</string>
+
+    <string name="compass_northeast">KD</string>
+    <string name="ar_compass_northeast">Kuzeydoğu</string>
+
+    <string name="compass_north">K</string>
+
+    <string name="ar_compass_north">Kuzey</string>
+
+    <string name="ar_compass_title">AR Pusula</string>
+
+    <string name="magna_ar_tutorial_got_it">Anladım!</string>
+
+    <string name="ar_compass_onboarding_body">Kuzey, Güney, Doğu ve Batı işaretleyicileri göz hizasında çevrenizde havada durur. Telefonunuzu dik tutun, kamerayı ufka doğru yöneltin ve hepsini bulmak için yavaşça tam bir tur dönün.</string>
+
+    <string name="ar_compass_onboarding_title">Göz hizasında etrafınıza bakın</string>
+
+    <string name="ar_compass_tilt_hint">Yön işaretleyicilerini görmek için kamerayı ufka doğru yöneltin</string>
+
+
+    <string name="ar_compass_instructions">Yavaşça dönün ve uzayda sabitlenmiş yön işaretleyicilerini görmek için etrafınıza bakın.</string>
+
+    <string name="ar_compass_heading_label">Yön</string>
+
+
+    <string name="version">Sürüm</string>
+    <string name="about">Hakkında</string>
+
+    <string name="usage_resources">Websitesi</string>
+
+<string name="emaildeveloper">Geliştiriciye mail yolla</string>
+
+    <string name="feedback">Geri bildirim</string>
+
+    <string name="heatmap_summary">Isı haritası ölçeğini görüntüleyin.</string>
+
+    <string name="heatmap">Isı haritası</string>
+
+    <string name="numeric_description">Manyetik alanın sayısal değerini okların veya kürelerin üzerinde görüntüleyin.</string>
+
+    <string name="numerical_value">Sayısal değer</string>
+
+    <string name="visualization">Görselleştirme</string>
+<string name="settings">Ayarlar</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR, aşağıdaki ortaklarla işbirliği içinde National Science Foundation ödülü #NSF#1822728 desteğiyle geliştirilmiştir:</string>
+
+    <string name="back">GERİ</string>
+
+<string name="meet_team">Ekiple tanışın</string>
+
+    <string name="unknown_tracking_failure_reason">Bilinmeyen izleme hatası nedeni: %1$s</string>
+
+    <string name="insufficient_features_message">Hiçbir şey bulunamıyor. Cihazı daha fazla doku veya renk içeren bir yüzeye doğrultun.</string>
+
+    <string name="excessive_motion_message">Çok hızlı hareket ediyorsunuz. Yavaşlayın.</string>
+
+    <string name="insufficient_light_message">Çok karanlık. Iyi aydınlatılmış bir alana gitmeyi deneyin.</string>
+
+    <string name="bad_state_message">Kötü iç durum nedeniyle izleme kaybedildi. Lütfen AR deneyimini yeniden başlatmayı deneyin.</string>
+
+    <string name="no_email_app_found">Yüklü bir e-posta uygulaması yok. Bize %1$s adresinden ulaşabilirsiniz</string>
+    </resources>

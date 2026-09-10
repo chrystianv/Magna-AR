@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">AR сесс үргэлжлүүлэх үед гэнэтийн алдаа гарлаа. Аппыг дахин эхлүүлж үзнэ үү.</string>
+    <string name="error_title">Гэнэтийн алдаа</string>
+    <string name="close">Хаах</string>
+    <string name="retry">Дахин оролдох</string>
+    <string name="arcore_error_message">AR сесс үргэлжлүүлэх үед ARCore асуудалтай тулгарсан. Энэ нь төхөөрөмжийн тусгай нийцэлтэй асуудал эсвэл ARCore үйлчилгээний түр тасалдлаас үүдэлтэй байж болно.\n\nАппыг дахин эхлүүлэх эсвэл AR-д зориулсан Google Play Services-ийг шинэчилнэ үү.</string>
+    <string name="arcore_error_title">ARCore алдаа</string>
+    <string name="stopped_adding_vectors">Векторуудыг автоматаар нэмэхийг зогсоолоо.</string>
+<string name="tap_vectors">Векторуудыг автоматаар нэмж эхэллээ. Зогсоохын тулд товчийг дахин дарна уу.</string>
+
+    <string name="magna_ar" translatable="false">Magna-AR</string>
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Орны вектор байрлуулахын тулд хаана ч товшино уу</string>
+
+    <string name="permission_ar_visualizer_body">Таны утасны соронзон хэмжигч орон нутгийн соронзон орныг хэмжинэ. Камер нь орны векторуудыг таны орчинд тогтооно.</string>
+<string name="permission_ar_visualizer_headline">Эргэн тойрныхоо соронзон орныг судлаарай</string>
+    <string name="restart">Дахин эхлүүлэх</string>
+    <string name="heatmap_low">Бага</string>
+
+    <string name="heatmap_high">Өндөр</string>
+
+    <string name="magnetic_field">Соронзон орон (µT)</string>
+    <string name="auto_add_vectors">Векторуудыг автоматаар нэмэх</string>
+    <string name="compass_northwest">NW</string>
+    <string name="ar_compass_northwest">Баруун хойд</string>
+
+
+
+
+
+    <string name="compass_west">W</string>
+    <string name="ar_compass_west">Баруун</string>
+
+    <string name="compass_southwest">SW</string>
+<string name="ar_compass_southwest">Баруун өмнөд</string>
+
+    <string name="compass_south">S</string>
+    <string name="ar_compass_south">Өмнөд</string>
+
+    <string name="compass_southeast">SE</string>
+    <string name="ar_compass_southeast">Зүүн өмнөд</string>
+
+    <string name="compass_east">E</string>
+    <string name="ar_compass_east">Зүүн</string>
+
+    <string name="compass_northeast">NE</string>
+    <string name="ar_compass_northeast">Зүүн хойд</string>
+
+    <string name="compass_north">N</string>
+    <string name="ar_compass_north">Хойд</string>
+
+    <string name="ar_compass_title">AR луужин</string>
+
+    <string name="magna_ar_tutorial_got_it">Ойлголоо!</string>
+
+
+    <string name="ar_compass_onboarding_body">Хойд, өмнөд, зүүн, баруун зүгийн тэмдэглэгээнүүд таны эргэн тойронд нүдний түвшинд агаарт хөвж байдаг. Утсаа босоо барьж, камераа тэнгэрийн хаяа руу чиглүүлээд, бүгдийг нь олохын тулд аажмаар бүтэн тойрог эргээрэй.</string>
+
+    <string name="ar_compass_onboarding_title">Нүдний түвшинд эргэн тойрноо хараарай</string>
+
+    <string name="ar_compass_tilt_hint">Чиглэлийн тэмдэглэгээг харахын тулд камераа тэнгэрийн хаяа руу чиглүүлнэ үү</string>
+
+
+    <string name="ar_compass_instructions">Орон зайд бэхлэгдсэн чиглэлийн тэмдэглэгээг олохын тулд аажмаар эргэж, эргэн тойрноо харна уу.</string>
+
+    <string name="ar_compass_heading_label">Чиглэл</string>
+
+
+    <string name="version">Хувилбар</string>
+
+
+    <string name="about">Тухай</string>
+    <string name="usage_resources">Вэбсайт</string>
+<string name="emaildeveloper">Хөгжүүлэгчид имэйл илгээх</string>
+    <string name="feedback">Санал хүсэлт</string>
+    <string name="heatmap_summary">Дулааны зургийн масштабыг харуулах.</string>
+
+    <string name="heatmap">Дулааны зураг</string>
+
+    <string name="numeric_description">Соронзон орны тоон утгыг сум эсвэл бөмбөлгийн дээр харуулах.</string>
+
+    <string name="numerical_value">Тоон утга</string>
+
+    <string name="visualization">Дүрслэл</string>
+
+    <string name="settings">Тохиргоо</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR нь National Science Foundation-ийн #NSF#1822728 тэтгэлгийн дэмжлэгтэйгээр, дараах түншүүдтэй хамтран хөгжүүлсэн:</string>
+
+    <string name="back">Буцах</string>
+
+    <string name="meet_team">Багтай танилцах</string>
+
+    <string name="unknown_tracking_failure_reason">Мөрдөлт бүтэлгүйтсэн шалтгаан тодорхойгүй: %1$s</string>
+
+    <string name="insufficient_features_message">Юу ч олдохгүй байна. Төхөөрөмжөө илүү бүтэц, өнгөтэй гадаргуу руу чиглүүлнэ үү.</string>
+
+    <string name="excessive_motion_message">Хэт хурдан хөдөлж байна. Удаашруулна уу.</string>
+
+    <string name="insufficient_light_message">Хэт харанхуй байна. Сайн гэрэлтэй газар руу шилжихийг оролдоно уу.</string>
+
+    <string name="bad_state_message">Дотоод төлөв муу болсон тул мөрдөлт алдагдлаа. AR туршлагыг дахин эхлүүлж үзнэ үү.</string>
+
+    <string name="no_email_app_found">Имэйл програм суулгаагүй байна. Та бидэнтэй %1$s хаягаар холбогдож болно</string>
+    </resources>

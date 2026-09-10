@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">Váratlan hiba történt az AR-munkamenet folytatása közben. Próbáld újraindítani az alkalmazást.</string>
+
+
+    <string name="error_title">Váratlan hiba</string>
+    <string name="close">Bezárás</string>
+    <string name="retry">Újra</string>
+    <string name="arcore_error_message">Az ARCore hibába ütközött az AR-munkamenet folytatása közben. Ennek oka lehet eszközspecifikus kompatibilitási probléma vagy az ARCore szolgáltatás átmeneti kimaradása.\n\nPróbáld újraindítani az alkalmazást, vagy frissítsd a Google Play-szolgáltatások AR-hoz csomagot.</string>
+    <string name="arcore_error_title">ARCore hiba</string>
+    <string name="stopped_adding_vectors">Vektorok automatikus hozzáadása leállítva.</string>
+
+
+    <string name="tap_vectors">Vektorok automatikus hozzáadása elkezdődött. Nyomja meg újra a gombot a leállításhoz.</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Koppints bárhová egy térvektor elhelyezéséhez</string>
+
+    <string name="permission_ar_visualizer_body">A telefon magnetométere a helyi mágneses mezőt méri. A kamera a környezetedben rögzíti a térvektorokat.</string>
+    <string name="permission_ar_visualizer_headline">Fedezd fel a körülötted lévő mágneses mezőket</string>
+    <string name="restart">Újraindít</string>
+    <string name="heatmap_low">Alacsony</string>
+    <string name="heatmap_high">Magas</string>
+
+    <string name="magnetic_field">Mágneses Indukció (µT)</string>
+    <string name="compass_northwest">ÉNy</string>
+    <string name="ar_compass_northwest">Északnyugat</string>
+
+
+
+
+
+    <string name="compass_west">Ny</string>
+    <string name="ar_compass_west">Nyugat</string>
+
+    <string name="compass_southwest">DNy</string>
+<string name="ar_compass_southwest">Délnyugat</string>
+
+    <string name="compass_south">D</string>
+    <string name="ar_compass_south">Dél</string>
+
+    <string name="compass_southeast">DK</string>
+    <string name="ar_compass_southeast">Délkelet</string>
+
+    <string name="compass_east">K</string>
+    <string name="ar_compass_east">Kelet</string>
+
+    <string name="compass_northeast">ÉK</string>
+    <string name="ar_compass_northeast">Északkelet</string>
+
+    <string name="compass_north">É</string>
+    <string name="ar_compass_north">Észak</string>
+
+    <string name="ar_compass_title">AR iránytű</string>
+
+    <string name="magna_ar_tutorial_got_it">Értem!</string>
+
+    <string name="ar_compass_onboarding_body">Az északi, déli, keleti és nyugati irányjelzők szemmagasságban lebegnek a levegőben Ön körül. Tartsa a telefont függőlegesen, irányítsa a kamerát a horizont felé, és forduljon körbe lassan egy teljes kört, hogy mindet megtalálja.</string>
+
+    <string name="ar_compass_onboarding_title">Nézzen körül szemmagasságban</string>
+
+    <string name="ar_compass_tilt_hint">Irányítsa a kamerát a horizont felé, hogy lássa az irányjelzőket</string>
+
+
+    <string name="ar_compass_instructions">Lassan forduljon meg és nézzen körül, hogy észrevegye a térben rögzített irányjelzőket.</string>
+
+    <string name="ar_compass_heading_label">Irány</string>
+
+
+    <string name="version">Verzió</string>
+    <string name="about">Rólunk</string>
+    <string name="usage_resources">Weboldal</string>
+<string name="emaildeveloper">E-mail küldése a fejlesztőnek</string>
+    <string name="feedback">Visszajelzés</string>
+    <string name="heatmap_summary">Hőtérkép skála megjelenítése.</string>
+
+    <string name="heatmap">Hőtérkép</string>
+
+    <string name="numeric_description">Jelenítse meg a mágneses tér numerikus értékét a nyilak vagy gömbök felett.</string>
+
+    <string name="numerical_value">Numerikus érték</string>
+
+    <string name="visualization">Vizualizáció</string>
+<string name="settings">Beállítások</string>
+
+
+
+
+    <string name="magna_ar_description">A Magna-AR a National Science Foundation #NSF#1822728 számú támogatásával fejlesztik, a következő partnerekkel együttműködve:</string>
+
+    <string name="back">VISSZA</string>
+
+<string name="meet_team">Ismerje meg a csapatot</string>
+
+    <string name="unknown_tracking_failure_reason">Ismeretlen követési hiba oka: %1$s</string>
+
+    <string name="insufficient_features_message">Nem található semmi. Irányítsa az eszközt több textúrával vagy színnel rendelkező felületre.</string>
+
+    <string name="excessive_motion_message">Túl gyorsan mozog. Lassítson.</string>
+
+    <string name="insufficient_light_message">Túl sötét. Próbáljon meg jól megvilágított területre költözni.</string>
+
+    <string name="bad_state_message">A követés rossz belső állapot miatt elveszett. Kérjük, próbálja meg újraindítani az AR élményt.</string>
+
+    <string name="no_email_app_found">Nincs telepítve e-mail alkalmazás. Elérhet minket a következő címen: %1$s</string>
+    </resources>

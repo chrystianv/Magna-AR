@@ -1,0 +1,3 @@
+<resources>
+    <string name="magna_ar_vector_limit">Vector limit reached (%1$d). Reset to start a new set of measurements.</string>
+</resources>
