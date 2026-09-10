@@ -20,7 +20,7 @@ The application ID remains `net.vieyrasoftware.physicstoolboxfieldvisualizer.and
 
 ## Functionality
 
-- Real magnetic vectors in the camera view, manually placed or added automatically.
+- Real magnetic vectors in the camera view, manually placed or added automatically. Each session keeps up to 128 vectors; placement stops at the limit until Reset starts a new set.
 - Suite layout, onboarding lesson, XYZ/total readouts, numerical vector labels and heatmap scale.
 - AR compass, image capture and Android share sheet, and reset.
 - Material 3 settings and project/team attribution.

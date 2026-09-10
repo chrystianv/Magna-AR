@@ -100,7 +100,12 @@ class VisualizerActivity : AppCompatActivity() {
     private var recorder: MagnetometerData? = null
     private var fields: FieldGroup? = null
     private var scene: Scene? = null
-    private val stableArrows = ArrayList<StaticArrowModel>()
+    private val stableArrows = RetainedResources<StaticArrowModel>(MAX_VECTORS) { arrow ->
+        fields?.removeModel(arrow)
+        arrow.destroy()
+        arrowTextOverlay?.removeArrowModel(arrow)
+    }
+    private var fieldAnchor: AnchorNode? = null
 
     // Views & Fragments
     private val fieldTextViews: Array<TextView?>? = arrayOfNulls<TextView>(4)
@@ -269,7 +274,8 @@ class VisualizerActivity : AppCompatActivity() {
      * Grab handles for Renderables.
      */
     private fun bindAr() {
-        arSceneView = findViewById<ARSceneView?>(R.id.vr_fragment)
+        arSceneView = findViewById<MagnaArSceneView?>(R.id.vr_fragment)
+        (arSceneView as? MagnaArSceneView)?.beforeDestroy = ::releaseSceneResources
         if (arSceneView != null) {
             arSceneView!!.lifecycle = lifecycle
         }
@@ -328,6 +334,10 @@ class VisualizerActivity : AppCompatActivity() {
         })
 
         infoButton!!.setOnClickListener(View.OnClickListener { v: View? ->
+            if (stableArrows.isFull) {
+                showVectorLimit()
+                return@OnClickListener
+            }
             isAddingArrows = 1 - isAddingArrows
             // Update checkable state for Material 3 button - this automatically changes the background color
             infoButton!!.isChecked = (isAddingArrows == 1)
@@ -580,7 +590,19 @@ class VisualizerActivity : AppCompatActivity() {
         return false
     }
 
+    private fun showVectorLimit() {
+        automaticArrowLoop.stop()
+        isAddingArrows = 0
+        infoButton?.isChecked = false
+        hideStatusIndicator()
+        CompactNotificationHelper.showWarning(this, getString(R.string.magna_ar_vector_limit, MAX_VECTORS))
+    }
+
     private fun createTempArrow(xPx: Float, yPx: Float) {
+        if (stableArrows.isFull) {
+            showVectorLimit()
+            return
+        }
         if (arSceneView == null) {
             Log.w(TAG, "ARSceneView not ready yet, ignoring tap.")
             return
@@ -644,10 +666,11 @@ class VisualizerActivity : AppCompatActivity() {
                     null,  // onAnchorChanged
                     null // onUpdated
                 )
+                fieldAnchor = anchorNode
                 scene = arSceneView!!.scene
                 fields = FieldGroup(anchorNode, object : Filter {
                     // Create Node with SceneView
-                    var n: Node = Node(arSceneView!!.engine, -1)
+                    var n: Node = Node(arSceneView!!.engine)
 
                     override fun update(fields: MutableList<Field?>, root: Node) {}
 
@@ -663,7 +686,7 @@ class VisualizerActivity : AppCompatActivity() {
             }
             var currentMag = recorder!!.field.getValue()
             if (currentMag != null) {
-                currentMag = cameraPose.rotateVector(currentMag)
+                currentMag = MagneticFieldTransform.toWorld(frame.androidSensorPose, currentMag)
                 val mag = Vector3Compat(currentMag[0], currentMag[1], currentMag[2])
                 if (mag.length() > 1e-9) {
                     val translation: FloatArray
@@ -699,31 +722,23 @@ class VisualizerActivity : AppCompatActivity() {
                             "Fallback placement at (" + translation[0] + ", " + translation[1] + ", " + translation[2] + ")"
                         )
                     }
-                    val arrowModel = StaticArrowModel(
-                        Vector3Compat(translation[0], translation[1], translation[2]),
-                        mag, shouldHaveNumbers()
-                    )
-                    stableArrows.add(arrowModel)
-                    arrowTextOverlay?.addArrowModel(arrowModel)
-
-
-                    Log.d(
-                        TAG,
-                        "Loading arrow model assets at position: " + translation[0] + "," + translation[1] + "," + translation[2]
-                    )
-                    arrowModel.loadModel(arSceneView!!, lifecycleScope)
-
-                    try {
-                        arrowModel.loadAsset(getApplicationContext())
-                        fields!!.addModel(arrowModel)
-                        hideTopLesson()
-                        Log.d(
-                            TAG,
-                            "Models tracked: arrows=" + stableArrows.size
+                    stableArrows.tryAdd {
+                        val arrow = StaticArrowModel(
+                            Vector3Compat(translation[0], translation[1], translation[2]),
+                            mag, shouldHaveNumbers()
                         )
-                    } catch (e: Exception) {
-                        Log.e(TAG, "Failed to load/add model", e)
+                        try {
+                            arrow.loadModel(arSceneView!!, lifecycleScope)
+                            fields!!.addModel(arrow)
+                            arrowTextOverlay?.addArrowModel(arrow)
+                            hideTopLesson()
+                            arrow
+                        } catch (error: Exception) {
+                            arrow.destroy()
+                            throw error
+                        }
                     }
+                    if (stableArrows.isFull) showVectorLimit()
                 } else {
                     Log.d(TAG, "Magnetometer magnitude too small: " + mag.length())
                 }
@@ -893,6 +908,19 @@ class VisualizerActivity : AppCompatActivity() {
         super.onPause()
     }
 
+    private fun releaseSceneResources() {
+        automaticArrowLoop.stop()
+        // Detach our nodes and cancel their jobs before SceneView destroys its engine/loaders.
+        stableArrows.clear()
+        fields?.filter()?.node()?.destroy()
+        fieldAnchor?.let { anchor ->
+            arSceneView?.removeChildNode(anchor)
+            anchor.destroy()
+        }
+        fields = null
+        fieldAnchor = null
+    }
+
     override fun onStart() {
         super.onStart()
     }
@@ -1036,6 +1064,7 @@ class VisualizerActivity : AppCompatActivity() {
     }
 
     companion object {
+        private const val MAX_VECTORS = 128
         private const val TAG = "VisualizerActivity"
         private const val SNAPSHOT_DIRECTORY = "magna_ar_snapshots"
         private const val AUTOMATIC_ARROW_INTERVAL_MILLIS = 500L

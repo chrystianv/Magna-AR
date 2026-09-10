@@ -9,7 +9,7 @@ Standalone-specific work includes permission denial recovery, bounded availabili
 ## Verified
 
 - `assembleDebug`, `testDebugUnitTest`, `lintDebug`, `assembleRelease`, and `bundleRelease` succeed.
-- Five JVM regression tests pass: automatic vector scheduling starts once and stops correctly, the snapshot control retains its suite layout, Spanish covers every translatable string, and Spanish formatting arguments match English.
+- Ten JVM regression tests pass, including sensor-pose rotation/translation checks, a 10,000-attempt bounded-allocation test, idempotent session cleanup, scheduler behavior, snapshot layout, and Spanish coverage/formatting.
 - Lint: zero errors. Remaining warnings include inherited translations, dependency updates, and style suggestions. Only missing translations are explicitly downgraded to warnings; English fallback remains available.
 - Three instrumentation smoke tests pass on both 4 KB and 16 KB ARM64 emulators: AR/Filament/Compose native libraries load, settings opens without requiring camera access, and FileProvider refuses files outside the snapshot directory.
 - Emulator UI checks: initial welcome, settings, camera permission request, denial/retry, and AR service installation prompt.
@@ -36,9 +36,9 @@ The modernization has been applied to the standalone Magna-AR repository with ex
 - Optional external upload signing is implemented. A signing-required Gradle configuration fails as expected without credentials; unsigned debug/release builds still succeed.
 - Removed 103 generated/local-only Gradle, IDE, and SDK-location files from Git tracking while retaining local files. The repository cleanup is included in the modernization pull request.
 
-## Initial code-review findings
+## Review fixes
 
-- Magnetic vectors are transformed with the display-oriented camera pose even though magnetometer samples are in Android sensor coordinates. Use the frame's Android sensor pose for vector conversion and test portrait/landscape invariance before merging.
-- Automatic placement retains every arrow and loads a model/material/light for each. Add a bounded retention/reuse policy and validate a sustained session before release.
-
-These findings are not covered by the passing startup and native-library smoke tests.
+- Magnetic vectors now use `frame.androidSensorPose` for sensor-to-world conversion; camera display pose remains limited to placement. Tests cover all four quarter-turn orientations, physical translations, and the extra magnitude value in sensor samples.
+- Each session retains at most 128 vectors. Manual and automatic placement refuse further allocations at the limit; automatic placement stops and an English/Spanish message asks the user to reset. Existing measurements are preserved until reset.
+- A SceneView subclass releases application-owned arrow assets, materials, lights, nodes, and the field anchor before engine destruction. Pending arrow-load jobs are canceled.
+- Four device tests pass on the 4 KB ARM64 emulator after these fixes. The new native regression loads and disposes 20 real arrow assets, checks that their renderables disappear and light counts return to baseline, checks repeated disposal, and closes the scene with a pending load. The earlier 16 KB smoke results predate these fixes; physical-device tracking and signed-upgrade validation remain release gates.

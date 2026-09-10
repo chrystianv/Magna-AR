@@ -10,7 +10,8 @@ import io.github.sceneview.node.LightNode
 import io.github.sceneview.node.ModelNode
 import io.github.sceneview.node.Node
 import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import kotlin.jvm.JvmOverloads
 import net.vieyrasoftware.net.physicstoolboxfieldvisualizer.android.ar.compat.QuaternionCompat
@@ -32,6 +33,9 @@ class StaticArrowModel @JvmOverloads constructor(
 ) : Model {
 
     // Nodes - created lazily when needed
+    private var loadJob: Job? = null
+    private var destroyed = false
+    private var loadedAsset: com.google.android.filament.gltfio.FilamentAsset? = null
     private var rootNode: Node? = null
     private var figureNode: ModelNode? = null
     private var textNode: Node? = null  // Node for text positioning
@@ -159,7 +163,8 @@ class StaticArrowModel @JvmOverloads constructor(
      * Load the actual GLB model from an ARSceneView context
      * This should be called BEFORE loadAsset() to create the nodes first
      */
-    fun loadModel(arSceneView: ARSceneView, scope: CoroutineScope) {
+    fun loadModel(arSceneView: ARSceneView, scope: CoroutineScope): Job {
+        check(!destroyed && sceneView == null) { "An arrow model can only be loaded once" }
         this.sceneView = arSceneView
 
         // Create the root node synchronously so it's available immediately
@@ -191,12 +196,17 @@ class StaticArrowModel @JvmOverloads constructor(
         }
 
         // Load the actual model asynchronously
-        scope.launch {
+        return scope.launch {
             try {
                 // Load the GLB model
                 val loadedModel = arSceneView.modelLoader.loadModelInstance("arrow.glb")
 
                 if (loadedModel != null) {
+                    if (destroyed) {
+                        arSceneView.modelLoader.destroyModel(loadedModel.asset)
+                        return@launch
+                    }
+                    loadedAsset = loadedModel.asset
                     // Create model node with the loaded instance
                     figureNode = ModelNode(modelInstance = loadedModel, autoAnimate = false)
                     figureNode?.parent = rootNode
@@ -238,10 +248,12 @@ class StaticArrowModel @JvmOverloads constructor(
                 } else {
                     Log.e("StaticArrowModel", "Failed to load arrow.glb model")
                 }
+            } catch (cancelled: CancellationException) {
+                throw cancelled
             } catch (e: Exception) {
                 Log.e("StaticArrowModel", "Error loading GLB model", e)
             }
-        }
+        }.also { loadJob = it }
     }
 
     /**
@@ -282,6 +294,28 @@ class StaticArrowModel @JvmOverloads constructor(
         } catch (e: Exception) {
             Log.e("StaticArrowModel", "Error creating text position node", e)
         }
+    }
+
+    /** Release only this arrow's resources while the SceneView engine is still alive. */
+    fun destroy() {
+        if (destroyed) return
+        destroyed = true
+        loadJob?.cancel()
+        loadJob = null
+        // Detach asset entities before their owner destroys them. ModelLoader owns those entities.
+        figureNode?.parent = null
+        figureNode = null
+        loadedAsset?.let { sceneView?.modelLoader?.destroyModel(it) }
+        loadedAsset = null
+        coloredMaterialInstance?.let { sceneView?.materialLoader?.destroyMaterialInstance(it) }
+        coloredMaterialInstance = null
+        textNode?.destroy()
+        textNode = null
+        lightNode?.destroy()
+        lightNode = null
+        rootNode?.destroy()
+        rootNode = null
+        sceneView = null
     }
 
     companion object {
