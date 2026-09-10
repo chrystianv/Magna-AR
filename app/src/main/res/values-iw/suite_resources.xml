@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">אירעה שגיאה לא צפויה בעת חידוש הפעלת ה-AR. אנא נסה להפעיל מחדש את האפליקציה.</string>
+<string name="error_title">שגיאה לא צפויה</string>
+    <string name="close">סגור</string>
+    <string name="retry">נסה שוב</string>
+    <string name="arcore_error_message">ARCore נתקל בבעיה בעת חידוש הפעלת ה-AR. ייתכן שזה נובע מבעיית תאימות ספציפית למכשיר או הפרעה זמנית בשירות ARCore.\n\nאנא נסה להפעיל מחדש את האפליקציה או לעדכן את שירותי Google Play עבור AR.</string>
+    <string name="arcore_error_title">שגיאת ARCore</string>
+    <string name="stopped_adding_vectors">הפסקת הוספת וקטורים אוטומטית.</string>
+<string name="tap_vectors">התחלת הוספת וקטורים אוטומטית. הקש שוב על הכפתור כדי לעצור.</string>
+
+    <string name="adding_vectors_status">מוסיף וקטורים…</string>
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">הקישו במקום כלשהו כדי להציב וקטור שדה</string>
+
+    <string name="permission_ar_visualizer_body">המגנטומטר בטלפון מודד את השדה המגנטי המקומי. המצלמה מעגנת וקטורים של השדה בסביבתכם.</string>
+
+
+    <string name="permission_ar_visualizer_headline">חקרו את השדות המגנטיים סביבכם</string>
+    <string name="restart">הפעל מחדש</string>
+    <string name="heatmap_low">נמוך</string>
+
+    <string name="heatmap_high">גבוה</string>
+
+    <string name="magnetic_field">שדה מגנטי (µT)</string>
+    <string name="auto_add_vectors">הוספת וקטורים אוטומטית</string>
+    <string name="compass_northwest">צמע</string>
+    <string name="ar_compass_northwest">צפון-מערב</string>
+
+
+
+
+
+    <string name="compass_west">מע</string>
+    <string name="ar_compass_west">מערב</string>
+
+    <string name="compass_southwest">דמע</string>
+<string name="ar_compass_southwest">דרום-מערב</string>
+
+    <string name="compass_south">ד</string>
+    <string name="ar_compass_south">דרום</string>
+
+    <string name="compass_southeast">דמ</string>
+    <string name="ar_compass_southeast">דרום-מזרח</string>
+
+    <string name="compass_east">מ</string>
+    <string name="ar_compass_east">מזרח</string>
+
+    <string name="compass_northeast">צמ</string>
+    <string name="ar_compass_northeast">צפון-מזרח</string>
+
+    <string name="compass_north">צ</string>
+    <string name="ar_compass_north">צפון</string>
+
+    <string name="ar_compass_title">מצפן AR</string>
+
+    <string name="magna_ar_tutorial_got_it">הבנתי!</string>
+
+    <string name="ar_compass_onboarding_body">סמני הצפון, הדרום, המזרח והמערב מרחפים באוויר סביבך בגובה העיניים. החזק את הטלפון זקוף, כוון את המצלמה אל האופק וסובב לאט סיבוב מלא כדי למצוא את כולם.</string>
+
+    <string name="ar_compass_onboarding_title">הבט סביב בגובה העיניים</string>
+
+    <string name="ar_compass_tilt_hint">כוון את המצלמה אל האופק כדי לראות את סמני הכיוון</string>
+
+
+    <string name="ar_compass_instructions">סובב לאט והסתכל מסביב כדי לזהות את סמני הכיוון המעוגנים במרחב.</string>
+
+    <string name="ar_compass_heading_label">כיוון</string>
+
+
+    <string name="meet_development_team_description">הכירו את צוות הפיתוח</string>
+    <string name="unknown">לא ידוע</string>
+    <string name="version">גרסה</string>
+    <string name="about">אודות</string>
+    <string name="usage_resources">אתר אינטרנט</string>
+<string name="emaildeveloper">שלח דוא״ל למפתח</string>
+    <string name="feedback">משוב</string>
+    <string name="heatmap_summary">הצג את סולם מפת החום.</string>
+
+    <string name="heatmap">מפת חום</string>
+
+    <string name="numeric_description">הצג את הערך המספרי של השדה המגנטי מעל החצים או הכדורים.</string>
+
+    <string name="numerical_value">ערך מספרי</string>
+
+    <string name="visualization">הדמיה</string>
+<string name="settings">הגדרות</string>
+    <string name="international_advisory_board">הוועדה המייעצת הבינלאומית</string>
+    <string name="android_developer_role">מפתח Android</string>
+    <string name="ios_developer_role">מפתח iOS</string>
+    <string name="development_team">צוות הפיתוח</string>
+    <string name="senior_personnel_role">חבר צוות בכיר</string>
+    <string name="co_principal_investigator_role">חוקר ראשי שותף</string>
+    <string name="principal_investigator_role">חוקר ראשי</string>
+    <string name="principal_investigators">חוקרים ראשיים</string>
+    <string name="leadership_and_development_team">צוות ההובלה והפיתוח</string>
+    <string name="partner_organizations">ארגונים שותפים</string>
+    <string name="magna_ar_description">Magna-AR פותח בתמיכת הקרן הלאומית למדע פרס #NSF#1822728 בשיתוף עם השותפים הבאים:</string>
+
+    <string name="nsf_grant_project">פרויקט מענק NSF</string>
+    <string name="back">חזרה</string>
+<string name="meet_team">הכירו את הצוות</string>
+
+    <string name="unknown_tracking_failure_reason">סיבת כשל מעקב לא ידועה: %1$s</string>
+
+    <string name="insufficient_features_message">לא ניתן למצוא כלום. כוון את המכשיר למשטח עם יותר מרקם או צבע.</string>
+
+    <string name="excessive_motion_message">תנועה מהירה מדי. האט.</string>
+
+    <string name="insufficient_light_message">חשוך מדי. נסה לעבור לאזור מואר היטב.</string>
+
+    <string name="bad_state_message">המעקב אבד עקב מצב פנימי לקוי. אנא נסה להפעיל מחדש את חוויית ה-AR.</string>
+
+    <string name="no_email_app_found">לא מותקנת אפליקציית אימייל. אפשר ליצור איתנו קשר בכתובת %1$s</string>
+    </resources>

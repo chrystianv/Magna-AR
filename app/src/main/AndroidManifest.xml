@@ -1,63 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.vieyrasoftware.net.physicstoolboxfieldvisualizer.android">
-
+<manifest xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
-    <uses-feature android:name="android.hardware.camera.ar" />
-
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/main"
-        android:label="@string/app_name"
-        android:requestLegacyExternalStorage="true"
-        android:roundIcon="@mipmap/main_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".activities.compass.CompassActivity"
-            android:screenOrientation="portrait"
-            ></activity>
-
-        <meta-data
-            android:name="com.google.ar.core"
-            android:value="required" />
-
-        <activity
-            android:name=".activities.VisualizerActivity"
-            android:label="@string/app_name"></activity>
-        <activity
-            android:name=".activities.onboarding.LaunchScreenActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.compass" android:required="true" />
+    <uses-feature android:glEsVersion="0x00030000" android:required="true" />
+    <application android:allowBackup="true" android:icon="@mipmap/main" android:roundIcon="@mipmap/main_round" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/ArTheme">
+        <meta-data android:name="com.google.ar.core" android:value="required" tools:replace="android:value" />
+        <activity android:name=".activities.visualizer.LaunchScreenActivity" android:exported="true">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
         </activity>
-        <activity
-            android:name=".activities.settings.SettingsActivity"
-            android:label="@string/title_activity_settings"
-            android:theme="@style/Preferences" />
-        <activity
-            android:name=".activities.DemagnetizeActivity"
-            android:label="@string/title_activity_settings"
-            android:theme="@style/Preferences" />
-        <activity
-            android:name=".activities.MagnetometerDescriptionActivity"
-            android:label="Description"
-            android:noHistory="true"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".activities.ProjectTeamActivity"
-            android:label="Description"
-            android:noHistory="true"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".activities.onboarding.OnBoardingActivity"
-            android:noHistory="true"
-            android:theme="@style/AppTheme" />
+        <activity android:name=".activities.visualizer.VisualizerActivity" android:theme="@style/ArTheme.Visualizer" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" />
+        <activity android:name=".activities.visualizer.ARCompassActivity" android:theme="@style/ArTheme.Visualizer" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" />
+        <activity android:name=".activities.settings.SettingsActivity" android:exported="false" />
+        <activity android:name=".activities.settings.ProjectTeamActivity" android:exported="false" />
+        <provider android:name="androidx.core.content.FileProvider" android:authorities="${applicationId}.provider" android:exported="false" android:grantUriPermissions="true"><meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/></provider>
     </application>
-
 </manifest>

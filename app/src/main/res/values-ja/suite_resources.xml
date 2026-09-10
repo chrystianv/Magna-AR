@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">AR セッションの再開中に予期しないエラーが発生しました。アプリを再起動してみてください。</string>
+
+
+    <string name="error_title">予期しないエラー</string>
+    <string name="close">閉じる</string>
+    <string name="retry">再試行</string>
+    <string name="arcore_error_message">AR セッションの再開中に ARCore で問題が発生しました。デバイス固有の互換性の問題、または ARCore サービスの一時的な中断が原因である可能性があります。\n\nアプリを再起動するか、Google Play 開発者サービス（AR）を更新してみてください。</string>
+    <string name="arcore_error_title">ARCore エラー</string>
+    <string name="stopped_adding_vectors">ベクトルの自動追加を停止しました。</string>
+
+
+    <string name="tap_vectors">ベクトルの自動追加を開始しました。停止するには、ボタンをもう一度タップしてください。</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">任意の場所をタップして磁場ベクトルを配置します</string>
+
+    <string name="permission_ar_visualizer_body">スマートフォンの磁力計が局所的な磁場を測定します。カメラは磁場ベクトルを周囲の空間に固定します。</string>
+    <string name="permission_ar_visualizer_headline">周囲の磁場を探究しよう</string>
+    <string name="restart">リスタート</string>
+        <string name="heatmap_low">低</string>
+    <string name="heatmap_high">高</string>
+
+    <string name="magnetic_field">磁場 (µT)</string>
+
+
+    <string name="compass_northwest">北西</string>
+    <string name="ar_compass_northwest">北西</string>
+
+
+
+
+
+    <string name="compass_west">西</string>
+    <string name="ar_compass_west">西</string>
+
+    <string name="compass_southwest">南西</string>
+<string name="ar_compass_southwest">南西</string>
+
+    <string name="compass_south">南</string>
+
+    <string name="ar_compass_south">南</string>
+
+    <string name="compass_southeast">南東</string>
+    <string name="ar_compass_southeast">南東</string>
+
+    <string name="compass_east">東</string>
+
+    <string name="ar_compass_east">東</string>
+
+    <string name="compass_northeast">北東</string>
+    <string name="ar_compass_northeast">北東</string>
+
+    <string name="compass_north">北</string>
+
+    <string name="ar_compass_north">北</string>
+
+    <string name="ar_compass_title">ARコンパス</string>
+
+    <string name="magna_ar_tutorial_got_it">わかりました！</string>
+
+    <string name="ar_compass_onboarding_body">北・南・東・西のマーカーが、目の高さで周囲の空中に浮かんでいます。スマートフォンを立てて持ち、カメラを地平線に向けて、ゆっくりと一回転してすべてのマーカーを見つけてください。</string>
+
+    <string name="ar_compass_onboarding_title">目の高さで周囲を見回してください</string>
+
+    <string name="ar_compass_tilt_hint">方向マーカーを表示するには、カメラを地平線に向けてください</string>
+
+
+    <string name="ar_compass_instructions">ゆっくりと回転して周囲を見回し、空間に固定された方向マーカーを見つけてください。</string>
+
+    <string name="ar_compass_heading_label">方位</string>
+
+
+    <string name="version">バージョン</string>
+    <string name="about">このアプリについて</string>
+
+    <string name="usage_resources">ウェブサイト</string>
+
+<string name="emaildeveloper">開発者にメール</string>
+
+    <string name="feedback">フィードバック</string>
+
+    <string name="heatmap_summary">ヒートマップのスケールを表示します。</string>
+
+
+    <string name="heatmap">ヒートマップ</string>
+
+    <string name="numeric_description">矢印または球体の上に磁場の数値を表示します。</string>
+
+    <string name="numerical_value">数値</string>
+
+    <string name="visualization">可視化</string>
+<string name="settings">設定</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-ARは、以下のパートナーと協力して、National Science Foundation助成金 #NSF#1822728 のサポートを受けて開発されています：</string>
+
+    <string name="back">戻る</string>
+
+
+    <string name="meet_team">チームに会う</string>
+
+    <string name="unknown_tracking_failure_reason">トラッキング失敗の理由が不明：%1$s</string>
+
+    <string name="insufficient_features_message">何も見つかりません。より多くのテクスチャまたは色のある表面にデバイスを向けてください。</string>
+
+    <string name="excessive_motion_message">動きが速すぎます。速度を落としてください。</string>
+
+    <string name="insufficient_light_message">暗すぎます。明るい場所に移動してみてください。</string>
+
+    <string name="bad_state_message">内部状態が悪いため、トラッキングが失われました。AR体験を再起動してみてください。</string>
+
+    <string name="no_email_app_found">メールアプリがインストールされていません。%1$s までご連絡ください</string>
+    </resources>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">A apărut o eroare neașteptată la reluarea sesiunii AR. Încearcă să repornești aplicația.</string>
+
+
+    <string name="error_title">Eroare neașteptată</string>
+    <string name="close">Închidere</string>
+    <string name="retry">Reîncercare</string>
+    <string name="arcore_error_message">ARCore a întâmpinat o problemă la reluarea sesiunii AR. Aceasta poate fi cauzată de o problemă de compatibilitate specifică dispozitivului sau de o întrerupere temporară a serviciului ARCore.\n\nÎncearcă să repornești aplicația sau să actualizezi Serviciile Google Play pentru AR.</string>
+    <string name="arcore_error_title">Eroare ARCore</string>
+    <string name="stopped_adding_vectors">Adăugarea automată a vectorilor s-a oprit.</string>
+
+
+    <string name="tap_vectors">A început adăugarea automată a vectorilor. Atingeți butonul din nou pentru a opri.</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Atingeți oriunde pentru a plasa un vector de câmp</string>
+
+    <string name="permission_ar_visualizer_body">Magnetometrul telefonului măsoară câmpul magnetic local. Camera ancorează vectorii de câmp în mediul din jur.</string>
+    <string name="permission_ar_visualizer_headline">Explorați câmpurile magnetice din jur</string>
+    <string name="restart">Restart</string>
+    <string name="heatmap_low">Scăzut</string>
+    <string name="heatmap_high">Ridicat</string>
+
+    <string name="magnetic_field">Câmp Magnetic (µT)</string>
+    <string name="compass_northwest">NV</string>
+    <string name="ar_compass_northwest">Nord-vest</string>
+
+
+
+
+
+    <string name="compass_west">V</string>
+    <string name="ar_compass_west">Vest</string>
+
+    <string name="compass_southwest">SV</string>
+<string name="ar_compass_southwest">Sud-vest</string>
+
+    <string name="compass_south">S</string>
+    <string name="ar_compass_south">Sud</string>
+
+    <string name="compass_southeast">SE</string>
+    <string name="ar_compass_southeast">Sud-est</string>
+
+    <string name="compass_east">E</string>
+    <string name="ar_compass_east">Est</string>
+
+    <string name="compass_northeast">NE</string>
+    <string name="ar_compass_northeast">Nord-est</string>
+
+    <string name="compass_north">N</string>
+    <string name="ar_compass_north">Nord</string>
+
+    <string name="ar_compass_title">Busolă AR</string>
+
+    <string name="magna_ar_tutorial_got_it">Am înțeles!</string>
+
+    <string name="ar_compass_onboarding_body">Marcatorii pentru nord, sud, est și vest plutesc în aer în jurul dvs. la nivelul ochilor. Țineți telefonul vertical, îndreptați camera spre orizont și rotiți-vă încet într-un cerc complet pentru a-i găsi pe toți.</string>
+
+    <string name="ar_compass_onboarding_title">Priviți în jur la nivelul ochilor</string>
+
+    <string name="ar_compass_tilt_hint">Îndreptați camera spre orizont pentru a vedea marcatorii de direcție</string>
+
+
+    <string name="ar_compass_instructions">Rotiți-vă încet și uitați-vă în jur pentru a vedea marcatorii de direcție ancorați în spațiu.</string>
+
+    <string name="ar_compass_heading_label">Direcție</string>
+
+
+    <string name="version">Versiune</string>
+    <string name="about">Despre</string>
+    <string name="usage_resources">Website</string>
+<string name="emaildeveloper">Trimite un E-mail dezvoltatorului</string>
+    <string name="feedback">Feedback</string>
+    <string name="heatmap_summary">Afișați scala hărții termice.</string>
+
+
+    <string name="heatmap">Hartă termică</string>
+
+    <string name="numeric_description">Afișați valoarea numerică a câmpului magnetic deasupra săgeților sau sferelor.</string>
+
+    <string name="numerical_value">Valoare numerică</string>
+
+    <string name="visualization">Vizualizare</string>
+<string name="settings">Setări</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR este dezvoltat cu sprijinul National Science Foundation premiul #NSF#1822728 în colaborare cu următorii parteneri:</string>
+
+    <string name="back">ÎNAPOI</string>
+
+
+    <string name="meet_team">Cunoașteți echipa</string>
+
+    <string name="unknown_tracking_failure_reason">Motiv necunoscut al eșecului urmăririi: %1$s</string>
+
+    <string name="insufficient_features_message">Nu se poate găsi nimic. Îndreptați dispozitivul către o suprafață cu mai multă textură sau culoare.</string>
+
+    <string name="excessive_motion_message">Vă mișcați prea repede. Încetiniți.</string>
+
+    <string name="insufficient_light_message">Prea întunecat. Încercați să vă mutați într-o zonă bine luminată.</string>
+
+    <string name="bad_state_message">Urmărirea s-a pierdut din cauza unei stări interne proaste. Vă rugăm să încercați să reporniți experiența AR.</string>
+
+    <string name="no_email_app_found">Nu este instalată nicio aplicație de e-mail. Ne puteți contacta la %1$s</string>
+    </resources>

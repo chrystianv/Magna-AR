@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">Une erreur inattendue s\'est produite lors de la reprise de la session AR. Veuillez redémarrer l\'application.</string>
+    <string name="error_title">Erreur inattendue</string>
+    <string name="close">Fermer</string>
+    <string name="retry">Réessayer</string>
+    <string name="arcore_error_message">ARCore a rencontré un problème lors de la reprise de la session AR. Cela peut être dû à un problème de compatibilité spécifique à l\'appareil ou à une interruption temporaire du service ARCore.\n\nVeuillez redémarrer l\'application ou mettre à jour Google Play Services pour AR.</string>
+    <string name="arcore_error_title">Erreur ARCore</string>
+    <string name="stopped_adding_vectors">Ajout automatique de vecteurs arrêté.</string>
+
+
+    <string name="tap_vectors">Ajout automatique de vecteurs démarré. Appuyez à nouveau sur le bouton pour arrêter.</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Touchez n’importe où pour placer un vecteur de champ</string>
+
+    <string name="permission_ar_visualizer_body">Le magnétomètre de votre téléphone mesure le champ magnétique local. La caméra ancre des vecteurs de champ dans votre environnement.</string>
+    <string name="permission_ar_visualizer_headline">Explorez les champs magnétiques autour de vous</string>
+    <string name="restart">Redémarrer</string>
+    <string name="heatmap_low">Faible</string>
+    <string name="heatmap_high">Élevé</string>
+
+    <string name="magnetic_field">Champs magnétique (µT)</string>
+    <string name="auto_add_vectors">Ajouter les vecteurs automatiquement</string>
+    <string name="compass_northwest">NO</string>
+    <string name="ar_compass_northwest">Nord-ouest</string>
+
+
+
+
+
+    <string name="compass_west">O</string>
+    <string name="ar_compass_west">Ouest</string>
+
+    <string name="compass_southwest">SO</string>
+<string name="ar_compass_southwest">Sud-ouest</string>
+
+    <string name="compass_south">S</string>
+    <string name="ar_compass_south">Sud</string>
+
+    <string name="compass_southeast">SE</string>
+    <string name="ar_compass_southeast">Sud-est</string>
+
+    <string name="compass_east">E</string>
+    <string name="ar_compass_east">Est</string>
+
+    <string name="compass_northeast">NE</string>
+    <string name="ar_compass_northeast">Nord-est</string>
+
+    <string name="compass_north">N</string>
+    <string name="ar_compass_north">Nord</string>
+
+    <string name="ar_compass_title">Boussole AR</string>
+
+    <string name="magna_ar_tutorial_got_it">Compris !</string>
+
+    <string name="ar_compass_onboarding_body">Les marqueurs Nord, Sud, Est et Ouest flottent dans l\'air autour de vous à hauteur des yeux. Tenez votre téléphone à la verticale, pointez la caméra vers l\'horizon et tournez lentement sur vous-même en un cercle complet pour les trouver tous.</string>
+
+    <string name="ar_compass_onboarding_title">Regardez autour de vous à hauteur des yeux</string>
+
+    <string name="ar_compass_tilt_hint">Pointez la caméra vers l\'horizon pour voir les marqueurs de direction</string>
+
+
+    <string name="ar_compass_instructions">Tournez lentement et regardez autour de vous pour repérer les marqueurs de direction ancrés dans l\'espace.</string>
+
+    <string name="ar_compass_heading_label">Cap</string>
+
+
+    <string name="version">Version</string>
+    <string name="about">A propos</string>
+    <string name="usage_resources">Site Web</string>
+<string name="emaildeveloper">Envoyer un e-mail au développeur</string>
+    <string name="feedback">Retour d\'information</string>
+    <string name="heatmap_summary">Afficher l\'échelle de la carte thermique.</string>
+
+    <string name="heatmap">Carte thermique</string>
+
+    <string name="numeric_description">Afficher la valeur numérique du champ magnétique au-dessus des flèches ou des sphères.</string>
+
+    <string name="numerical_value">Valeur numérique</string>
+
+    <string name="visualization">Visualisation</string>
+<string name="settings">Paramètres</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR est développé avec le soutien de la National Science Foundation sous le numéro de subvention #NSF#1822728 en collaboration avec les partenaires suivants :</string>
+
+    <string name="back">RETOUR</string>
+
+<string name="meet_team">Rencontrez l\'équipe</string>
+
+    <string name="unknown_tracking_failure_reason">Raison inconnue de l\'échec du suivi : %1$s</string>
+
+    <string name="insufficient_features_message">Impossible de trouver quoi que ce soit. Pointez l\'appareil vers une surface avec plus de texture ou de couleur.</string>
+
+    <string name="excessive_motion_message">Vous bougez trop vite. Ralentissez.</string>
+
+    <string name="insufficient_light_message">Trop sombre. Essayez de vous déplacer vers une zone bien éclairée.</string>
+
+    <string name="bad_state_message">Suivi perdu en raison d\'un mauvais état interne. Veuillez essayer de redémarrer l\'expérience AR.</string>
+
+    <string name="no_email_app_found">Aucune application de messagerie n\'est installée. Vous pouvez nous contacter à %1$s</string>
+    </resources>

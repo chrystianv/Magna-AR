@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/markerChip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/ar_compass_marker_chip">
+
+        <TextView
+            android:id="@+id/markerLetter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="34sp"
+            android:gravity="center"
+            android:text="@string/compass_north" />
+
+        <TextView
+            android:id="@+id/markerDegrees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#DDFFFFFF"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:text="@string/ar_compass_heading_value" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/markerDot"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/ar_compass_marker_dot" />
+
+</LinearLayout>

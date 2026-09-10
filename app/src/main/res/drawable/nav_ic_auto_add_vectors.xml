@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AppCompat bridge for NavigationIconography.AutoAddVectors; keep path data identical. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+    <path
+        android:pathData="M2 20l8-8 2 2-8 8z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M15 8l-1-3-1 3-3 1 3 1 1 3 1-3 3-1z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M20 3l-.5-1.5L19 3l-1.5.5L19 4l.5 1.5L20 4l1.5-.5z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M20 14l-.5-1.5L19 14l-1.5.5L19 15l.5 1.5L20 15l1.5-.5z"
+        android:fillColor="#FF000000" />
+</vector>

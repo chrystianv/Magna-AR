@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">AR-seansi jätkamisel ilmnes ootamatu viga. Palun proovige rakendus taaskäivitada.</string>
+<string name="error_title">Ootamatu viga</string>
+<string name="close">Sulge</string>
+<string name="retry">Proovi uuesti</string>
+<string name="arcore_error_message">ARCore ilmnes probleem AR-seansi jätkamisel. See võib olla tingitud seadmepõhisest ühilduvusprobleemist või ajutisest ARCore\'i teenuse katkestusest.\n\nPalun proovige rakendus taaskäivitada või uuendada Google Play Services for AR.</string>
+<string name="arcore_error_title">ARCore\'i viga</string>
+<string name="stopped_adding_vectors">Vektorite automaatne lisamine peatatud.</string>
+<string name="tap_vectors">Vektorite automaatne lisamine käivitatud. Peatamiseks vajutage nuppu uuesti.</string>
+
+    <string name="magna_ar" translatable="false">Magna-AR</string>
+
+<string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Väljavektori paigutamiseks puudutage ükskõik kuhu</string>
+
+    <string name="permission_ar_visualizer_body">Telefoni magnetomeeter mõõdab kohalikku magnetvälja. Kaamera ankurdab väljavektorid teie ümbrusse.</string>
+
+<string name="permission_ar_visualizer_headline">Uurige enda ümber olevaid magnetvälju</string>
+    <string name="restart">Taaskäivita</string>
+<string name="heatmap_low">Madal</string>
+
+    <string name="heatmap_high">Kõrge</string>
+
+    <string name="magnetic_field">Magnetväli (µT)</string>
+
+
+<string name="auto_add_vectors">Lisa vektoreid automaatselt</string>
+    <string name="compass_northwest">NW</string>
+
+<string name="ar_compass_northwest">Loode</string>
+
+
+
+
+
+    <string name="compass_west">W</string>
+
+<string name="ar_compass_west">Lääs</string>
+
+    <string name="compass_southwest">SW</string>
+
+<string name="ar_compass_southwest">Edel</string>
+
+    <string name="compass_south">S</string>
+
+<string name="ar_compass_south">Lõuna</string>
+
+    <string name="compass_southeast">SE</string>
+
+<string name="ar_compass_southeast">Kagu</string>
+
+    <string name="compass_east">E</string>
+
+<string name="ar_compass_east">Ida</string>
+
+    <string name="compass_northeast">NE</string>
+
+<string name="ar_compass_northeast">Kirre</string>
+
+    <string name="compass_north">N</string>
+
+<string name="ar_compass_north">Põhi</string>
+
+    <string name="ar_compass_title">AR-kompass</string>
+
+    <string name="magna_ar_tutorial_got_it">Selge!</string>
+
+<string name="ar_compass_onboarding_body">Põhja, lõuna, ida ja lääne markerid hõljuvad õhus teie ümber silmade kõrgusel. Hoidke telefoni püstiselt, suunake kaamera horisondi poole ja pöörake end aeglaselt täisring, et need kõik üles leida.</string>
+
+    <string name="ar_compass_onboarding_title">Vaadake ringi silmade kõrgusel</string>
+
+    <string name="ar_compass_tilt_hint">Suunake kaamera horisondi poole, et näha suunamarkereid</string>
+
+
+    <string name="ar_compass_instructions">Pöörake end aeglaselt ringi ja vaadake ümber, et leida ruumis ankurdatud suunamarkerid.</string>
+
+    <string name="ar_compass_heading_label">Suund</string>
+
+
+    <string name="version">Versioon</string>
+
+<string name="about">Teave</string>
+
+<string name="usage_resources">Veebisait</string>
+
+<string name="emaildeveloper">Saada arendajale e-kiri</string>
+
+<string name="feedback">Tagasiside</string>
+
+<string name="heatmap_summary">Kuva soojuskaardi skaala.</string>
+
+    <string name="heatmap">Soojuskaart</string>
+
+    <string name="numeric_description">Kuva magnetvälja arvväärtus noolte või sfääride kohal.</string>
+
+    <string name="numerical_value">Arvväärtus</string>
+
+    <string name="visualization">Visualiseerimine</string>
+
+    <string name="settings">Seaded</string>
+
+<string name="magna_ar_description">Magna-AR on arendatud Riikliku Teadusfondi toetuse #NSF#1822728 toel koostöös järgmiste partneritega:</string>
+
+    <string name="back">Tagasi</string>
+
+<string name="meet_team">Tutvuge meeskonnaga</string>
+
+    <string name="unknown_tracking_failure_reason">Tundmatu jälgimistõrke põhjus: %1$s</string>
+
+    <string name="insufficient_features_message">Midagi ei leitud. Suunake seade suurema tekstuuri või värviga pinnale.</string>
+
+    <string name="excessive_motion_message">Liigute liiga kiiresti. Aeglustage.</string>
+
+    <string name="insufficient_light_message">Liiga pime. Proovige minna paremini valgustatud alale.</string>
+
+    <string name="bad_state_message">Jälgimine katkes halva sisemise oleku tõttu. Palun proovige AR-kogemus taaskäivitada.</string>
+
+    <string name="no_email_app_found">Ühtegi e-posti rakendust pole installitud. Võite meiega ühendust võtta aadressil %1$s</string>
+    </resources>

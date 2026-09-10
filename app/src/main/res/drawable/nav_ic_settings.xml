@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AppCompat bridge for NavigationIconography.Settings; keep path data identical. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+    <path
+        android:pathData="M9.6 3.1h4.8l.5 2.1c.6.2 1.1.5 1.6.9l2-.7 2.4 4.1-1.5 1.5c.1.6.1 1.4 0 2l1.5 1.5-2.4 4.1-2-.7c-.5.4-1 .7-1.6.9l-.5 2.1H9.6l-.5-2.1c-.6-.2-1.1-.5-1.6-.9l-2 .7-2.4-4.1L4.6 13a7 7 0 0 1 0-2L3.1 9.5l2.4-4.1 2 .7c.5-.4 1-.7 1.6-.9z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M12 9.4a2.6 2.6 0 1 1 0 5.2 2.6 2.6 0 0 1 0-5.2z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

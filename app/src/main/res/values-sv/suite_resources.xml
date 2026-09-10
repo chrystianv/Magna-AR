@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">Ett oväntat fel inträffade när AR-sessionen återupptogs. Försök att starta om appen.</string>
+    <string name="error_title">Oväntat fel</string>
+    <string name="close">Stäng</string>
+    <string name="retry">Försök igen</string>
+    <string name="arcore_error_message">ARCore stötte på ett problem när AR-sessionen återupptogs. Detta kan bero på ett enhetsspecifikt kompatibilitetsproblem eller tillfälligt ARCore-tjänstavbrott.\n\nTesta att starta om appen eller uppdatera Google Play Services för AR.</string>
+    <string name="arcore_error_title">ARCore-fel</string>
+    <string name="magna_ar_snapshot_failed">Det gick inte att ta bilden. Försök igen.</string>
+
+
+    <string name="magna_ar_share_snapshot">Dela Magna-AR-bild</string>
+    <string name="stopped_adding_vectors">Slutade automatiskt lägga till vektorer.</string>
+    <string name="tap_vectors">Började automatiskt lägga till vektorer. Tryck på knappen igen för att stoppa.</string>
+
+    <string name="adding_vectors_status">Lägger till vektorer…</string>
+    <string name="total_mag_readout">%.0f µT</string>
+
+
+    <string name="tap_prompt_title">Tryck var som helst för att placera en fältvektor</string>
+
+    <string name="permission_ar_visualizer_body">Telefonens magnetometer mäter det lokala magnetfältet. Kameran förankrar fältvektorer i din omgivning.</string>
+    <string name="permission_ar_visualizer_headline">Utforska magnetfälten omkring dig</string>
+    <string name="restart">Starta om</string>
+    <string name="heatmap_low">Låg</string>
+    <string name="heatmap_high">Hög</string>
+
+    <string name="magnetic_field">Magnetfält (µT)</string>
+    <string name="magna_ar_capture_snapshot">Ta en Magna-AR-bild</string>
+    <string name="auto_add_vectors">Lägg till vektorer automatiskt</string>
+    <string name="compass_northwest">NV</string>
+    <string name="ar_compass_northwest">Nordväst</string>
+
+
+
+
+
+    <string name="compass_west">V</string>
+    <string name="ar_compass_west">Väster</string>
+
+    <string name="compass_southwest">SV</string>
+    <string name="ar_compass_southwest">Sydväst</string>
+
+    <string name="compass_south">S</string>
+    <string name="ar_compass_south">Söder</string>
+
+    <string name="compass_southeast">SO</string>
+    <string name="ar_compass_southeast">Sydost</string>
+
+    <string name="compass_east">Ö</string>
+    <string name="ar_compass_east">Öster</string>
+
+    <string name="compass_northeast">NO</string>
+    <string name="ar_compass_northeast">Nordost</string>
+
+    <string name="compass_north">N</string>
+    <string name="ar_compass_north">Norr</string>
+
+    <string name="ar_compass_title">AR-kompass</string>
+
+    <string name="magna_ar_tutorial_got_it">Jag förstår!</string>
+
+    <string name="ar_compass_onboarding_body">Markörerna för norr, söder, öster och väster svävar i luften omkring dig i ögonhöjd. Håll telefonen upprätt, rikta kameran mot horisonten och vänd dig långsamt ett helt varv för att hitta dem alla.</string>
+
+    <string name="ar_compass_onboarding_title">Titta omkring dig i ögonhöjd</string>
+
+    <string name="ar_compass_tilt_hint">Rikta kameran mot horisonten för att se riktningsmarkörerna</string>
+
+
+    <string name="ar_compass_instructions">Vänd dig långsamt och titta runt för att se riktningsmarkörerna som är förankrade i rummet.</string>
+
+    <string name="ar_compass_heading_label">Kurs</string>
+
+
+    <string name="meet_development_team_description">Möt utvecklingsteamet</string>
+    <string name="unknown">Okänd</string>
+    <string name="version">Version</string>
+    <string name="about">Om</string>
+
+    <string name="usage_resources">Webbplats</string>
+
+    <string name="emaildeveloper">Skicka e-post till utvecklaren</string>
+
+    <string name="feedback">Feedback</string>
+
+    <string name="heatmap_summary">Visa värmekartans skala.</string>
+
+
+    <string name="heatmap">Värmekarta</string>
+
+    <string name="numeric_description">Visa det numeriska värdet av magnetfältet ovanför pilarna eller sfärerna.</string>
+
+    <string name="numerical_value">Numeriskt värde</string>
+
+    <string name="visualization">Visualisering</string>
+<string name="settings">Inställningar</string>
+
+
+
+
+    <string name="international_advisory_board">Internationell rådgivande nämnd</string>
+    <string name="android_developer_role">Android-utvecklare</string>
+    <string name="ios_developer_role">iOS-utvecklare</string>
+    <string name="development_team">Utvecklingsteam</string>
+    <string name="senior_personnel_role">senior medarbetare</string>
+    <string name="co_principal_investigator_role">biträdande huvudansvarig forskare</string>
+    <string name="principal_investigator_role">huvudansvarig forskare</string>
+    <string name="principal_investigators">Huvudansvariga forskare</string>
+    <string name="leadership_and_development_team">Ledarskap och utvecklingsteam</string>
+    <string name="partner_organizations">Partnerorganisationer</string>
+    <string name="magna_ar_description">Magna-AR utvecklas med stöd av National Science Foundation bidrag #NSF#1822728 i samarbete med följande partners:</string>
+
+    <string name="nsf_grant_project">NSF:s bidragsprojekt</string>
+    <string name="back">TILLBAKA</string>
+
+
+    <string name="meet_team">Möt teamet</string>
+
+    <string name="unknown_tracking_failure_reason">Okänd orsak till spårningsfel: %1$s</string>
+
+    <string name="insufficient_features_message">Kan inte hitta något. Rikta enheten mot en yta med mer textur eller färg.</string>
+
+    <string name="excessive_motion_message">Rör dig för snabbt. Sakta ner.</string>
+
+    <string name="insufficient_light_message">För mörkt. Försök att flytta till ett välbelyst område.</string>
+
+    <string name="bad_state_message">Spårning förlorad på grund av dåligt internt tillstånd. Försök att starta om AR-upplevelsen.</string>
+
+    <string name="ar_opengl_version_required">AR-rendering kräver OpenGL ES 3.0 eller senare.</string>
+    <string name="no_email_app_found">Ingen e-postapp är installerad. Du kan nå oss på %1$s</string>
+    </resources>

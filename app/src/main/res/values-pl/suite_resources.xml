@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">Podczas wznawiania sesji AR wystąpił nieoczekiwany błąd. Spróbuj ponownie uruchomić aplikację.</string>
+
+
+    <string name="error_title">Nieoczekiwany błąd</string>
+    <string name="close">Zamknij</string>
+    <string name="retry">Ponów</string>
+    <string name="arcore_error_message">ARCore napotkał problem podczas wznawiania sesji AR. Może to wynikać z problemu ze zgodnością konkretnego urządzenia lub tymczasowej przerwy w działaniu usługi ARCore.\n\nSpróbuj ponownie uruchomić aplikację lub zaktualizować Usługi Google Play dla AR.</string>
+    <string name="arcore_error_title">Błąd ARCore</string>
+    <string name="stopped_adding_vectors">Zatrzymano automatyczne dodawanie wektorów.</string>
+
+
+    <string name="tap_vectors">Rozpoczęto automatyczne dodawanie wektorów. Dotknij ponownie przycisku, aby zatrzymać.</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+<string name="tap_prompt_title">Stuknij w dowolnym miejscu, aby umieścić wektor pola</string>
+
+    <string name="permission_ar_visualizer_body">Magnetometr telefonu mierzy lokalne pole magnetyczne. Kamera zakotwicza wektory pola w otoczeniu.</string>
+    <string name="permission_ar_visualizer_headline">Odkrywaj pola magnetyczne wokół siebie</string>
+    <string name="restart">Uruchom ponownie</string>
+    <string name="heatmap_low">Niska</string>
+    <string name="heatmap_high">Wysoka</string>
+
+    <string name="magnetic_field">Pole Magnetyczne (µT)</string>
+    <string name="compass_northwest">NW</string>
+    <string name="ar_compass_northwest">Północny zachód</string>
+
+
+
+
+
+    <string name="compass_west">W</string>
+    <string name="ar_compass_west">Zachód</string>
+
+    <string name="compass_southwest">SW</string>
+<string name="ar_compass_southwest">Południowy zachód</string>
+
+    <string name="compass_south">S</string>
+    <string name="ar_compass_south">Południe</string>
+
+    <string name="compass_southeast">SE</string>
+    <string name="ar_compass_southeast">Południowy wschód</string>
+
+    <string name="compass_east">E</string>
+    <string name="ar_compass_east">Wschód</string>
+
+    <string name="compass_northeast">NE</string>
+    <string name="ar_compass_northeast">Północny wschód</string>
+
+    <string name="compass_north">N</string>
+    <string name="ar_compass_north">Północ</string>
+
+    <string name="ar_compass_title">Kompas AR</string>
+
+    <string name="magna_ar_tutorial_got_it">Rozumiem!</string>
+
+    <string name="ar_compass_onboarding_body">Znaczniki północy, południa, wschodu i zachodu unoszą się w powietrzu wokół Ciebie na wysokości oczu. Trzymaj telefon pionowo, skieruj aparat w stronę horyzontu i powoli wykonaj pełny obrót, aby znaleźć je wszystkie.</string>
+
+    <string name="ar_compass_onboarding_title">Rozejrzyj się na wysokości oczu</string>
+
+    <string name="ar_compass_tilt_hint">Skieruj aparat w stronę horyzontu, aby zobaczyć znaczniki kierunku</string>
+
+
+    <string name="ar_compass_instructions">Obróć się powoli i rozejrzyj, aby zobaczyć znaczniki kierunku zakotwiczone w przestrzeni.</string>
+
+    <string name="ar_compass_heading_label">Kierunek</string>
+
+
+    <string name="version">Wersja</string>
+    <string name="about">Informacje</string>
+    <string name="usage_resources">Strona internetowa</string>
+<string name="emaildeveloper">Skontaktuj się z deweloperem</string>
+    <string name="feedback">Opinia</string>
+    <string name="heatmap_summary">Wyświetl skalę mapy cieplnej.</string>
+
+
+    <string name="heatmap">Mapa cieplna</string>
+
+    <string name="numeric_description">Wyświetl wartość numeryczną pola magnetycznego nad strzałkami lub kulami.</string>
+
+    <string name="numerical_value">Wartość numeryczna</string>
+
+    <string name="visualization">Wizualizacja</string>
+<string name="settings">Ustawienia</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR jest rozwijany przy wsparciu National Science Foundation grant #NSF#1822728 we współpracy z następującymi partnerami:</string>
+
+    <string name="back">WSTECZ</string>
+
+<string name="meet_team">Poznaj zespół</string>
+
+    <string name="unknown_tracking_failure_reason">Nieznana przyczyna niepowodzenia śledzenia: %1$s</string>
+
+    <string name="insufficient_features_message">Nie można niczego znaleźć. Skieruj urządzenie na powierzchnię z większą teksturą lub kolorem.</string>
+
+    <string name="excessive_motion_message">Poruszasz się zbyt szybko. Zwolnij.</string>
+
+    <string name="insufficient_light_message">Za ciemno. Spróbuj przejść do dobrze oświetlonego obszaru.</string>
+
+    <string name="bad_state_message">Śledzenie utracone z powodu złego stanu wewnętrznego. Spróbuj ponownie uruchomić funkcję AR.</string>
+
+    <string name="no_email_app_found">Nie zainstalowano żadnej aplikacji e-mail. Możesz skontaktować się z nami pod adresem %1$s</string>
+    </resources>

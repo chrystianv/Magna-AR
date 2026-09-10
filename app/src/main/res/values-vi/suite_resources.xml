@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">Đã xảy ra lỗi không mong muốn khi tiếp tục phiên AR. Vui lòng thử khởi động lại ứng dụng.</string>
+
+
+    <string name="error_title">Lỗi Không Mong Muốn</string>
+    <string name="close">Đóng</string>
+    <string name="retry">Thử lại</string>
+    <string name="arcore_error_message">ARCore đã gặp sự cố khi tiếp tục phiên AR. Nguyên nhân có thể là do vấn đề tương thích riêng của thiết bị hoặc dịch vụ ARCore bị gián đoạn tạm thời.\n\nVui lòng thử khởi động lại ứng dụng hoặc cập nhật Google Play Services for AR.</string>
+    <string name="arcore_error_title">Lỗi ARCore</string>
+    <string name="tap_prompt_title">Chạm vào bất kỳ đâu để đặt một vectơ trường</string>
+    <string name="permission_ar_visualizer_body">Từ kế của điện thoại đo từ trường cục bộ. Máy ảnh neo các vectơ trường vào không gian xung quanh bạn.</string>
+    <string name="permission_ar_visualizer_headline">Khám phá từ trường xung quanh bạn</string>
+    <string name="restart">Khởi động lại</string>
+    <string name="magnetic_field">Từ trường (µT)</string>
+    <string name="compass_northwest">TB</string>
+    <string name="ar_compass_northwest">Tây Bắc</string>
+
+    <string name="compass_west">T</string>
+    <string name="ar_compass_west">Tây</string>
+
+    <string name="compass_southwest">TN</string>
+<string name="ar_compass_southwest">Tây Nam</string>
+
+    <string name="compass_south">N</string>
+    <string name="ar_compass_south">Nam</string>
+
+    <string name="compass_southeast">ĐN</string>
+    <string name="ar_compass_southeast">Đông Nam</string>
+
+    <string name="compass_east">Đ</string>
+    <string name="ar_compass_east">Đông</string>
+
+    <string name="compass_northeast">ĐB</string>
+    <string name="ar_compass_northeast">Đông Bắc</string>
+
+    <string name="compass_north">B</string>
+    <string name="ar_compass_north">Bắc</string>
+
+    <string name="ar_compass_title">La bàn AR</string>
+
+    <string name="magna_ar_tutorial_got_it">Đã hiểu!</string>
+
+    <string name="ar_compass_onboarding_body">Các mốc Bắc, Nam, Đông, Tây lơ lửng trong không trung xung quanh bạn ở ngang tầm mắt. Giữ điện thoại thẳng đứng, hướng camera về phía đường chân trời và xoay người chậm rãi một vòng đầy đủ để tìm thấy tất cả.</string>
+
+    <string name="ar_compass_onboarding_title">Nhìn xung quanh ở ngang tầm mắt</string>
+
+    <string name="ar_compass_tilt_hint">Hướng camera về phía đường chân trời để thấy các mốc chỉ hướng</string>
+    <string name="ar_compass_instructions">Xoay người chậm rãi và nhìn xung quanh để thấy các mốc chỉ hướng được neo trong không gian.</string>
+
+    <string name="ar_compass_heading_label">Hướng</string>
+
+    <string name="version">Phiên bản</string>
+    <string name="about">Giới thiệu</string>
+    <string name="usage_resources">Tài nguyên</string>
+<string name="emaildeveloper">Email cho nhà phát triển</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="heatmap_summary">Hiển thị thang bản đồ nhiệt.</string>
+    <string name="heatmap">Bản đồ nhiệt</string>
+    <string name="numeric_description">Hiển thị giá trị số của từ trường phía trên các mũi tên.</string>
+    <string name="numerical_value">Giá trị số</string>
+    <string name="visualization">Trực quan hóa</string>
+    <string name="settings">Cài đặt</string>
+    <string name="magna_ar_description">Magna-AR được phát triển với sự hỗ trợ của Quỹ Khoa học Quốc gia theo khoản tài trợ #NSF#1822728, phối hợp cùng các đối tác sau:</string>
+    <string name="back">QUAY LẠI</string>
+    <string name="meet_team">Gặp gỡ đội ngũ</string>
+    <string name="no_email_app_found">Chưa cài đặt ứng dụng email nào. Bạn có thể liên hệ với chúng tôi tại %1$s</string>
+    </resources>

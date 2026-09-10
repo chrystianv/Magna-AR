@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="error_message">AR-istuntoa jatkettaessa tapahtui odottamaton virhe. Yritä käynnistää sovellus uudelleen.</string>
+    <string name="error_title">Odottamaton virhe</string>
+    <string name="close">Sulje</string>
+    <string name="retry">Yritä uudelleen</string>
+    <string name="arcore_error_message">ARCore kohtasi ongelman jatkaessaan AR-istuntoa. Tämä voi johtua laitekohtaisesta yhteensopivuusongelmasta tai tilapäisestä ARCore-palvelun keskeytyksestä.\n\nYritä käynnistää sovellus uudelleen tai päivittää Google Play Services for AR.</string>
+    <string name="arcore_error_title">ARCore-virhe</string>
+    <string name="stopped_adding_vectors">Vektorien automaattinen lisääminen pysäytetty.</string>
+
+
+    <string name="tap_vectors">Aloitettiin vektorien automaattinen lisääminen. Pysäytä napauttamalla painiketta uudelleen.</string>
+
+    <string name="total_mag_readout">%.0f µT</string>
+
+
+    <string name="tap_prompt_title">Napauta mitä tahansa kohtaa sijoittaaksesi kenttävektorin</string>
+
+    <string name="permission_ar_visualizer_body">Puhelimesi magnetometri mittaa paikallista magneettikenttää. Kamera kiinnittää kenttävektorit ympäristöösi.</string>
+    <string name="permission_ar_visualizer_headline">Tutki ympärilläsi olevia magneettikenttiä</string>
+    <string name="restart">Käynnistä uudelleen</string>
+    <string name="heatmap_low">Matala</string>
+    <string name="heatmap_high">Korkea</string>
+
+    <string name="magnetic_field">Magneettikenttä (µT)</string>
+    <string name="auto_add_vectors">Lisää vektorit automaattisesti</string>
+    <string name="compass_northwest">LU</string>
+    <string name="ar_compass_northwest">Luode</string>
+
+
+
+
+
+    <string name="compass_west">L</string>
+    <string name="ar_compass_west">Länsi</string>
+
+    <string name="compass_southwest">LO</string>
+
+
+    <string name="ar_compass_southwest">Lounas</string>
+
+    <string name="compass_south">E</string>
+    <string name="ar_compass_south">Etelä</string>
+
+    <string name="compass_southeast">KA</string>
+    <string name="ar_compass_southeast">Kaakko</string>
+
+    <string name="compass_east">I</string>
+    <string name="ar_compass_east">Itä</string>
+
+    <string name="compass_northeast">KI</string>
+    <string name="ar_compass_northeast">Koillinen</string>
+
+    <string name="compass_north">P</string>
+    <string name="ar_compass_north">Pohjoinen</string>
+
+    <string name="ar_compass_title">AR-kompassi</string>
+
+    <string name="magna_ar_tutorial_got_it">Selvä!</string>
+
+    <string name="ar_compass_onboarding_body">Pohjoisen, etelän, idän ja lännen merkit leijuvat ilmassa ympärilläsi silmien korkeudella. Pidä puhelinta pystyasennossa, suuntaa kamera kohti horisonttia ja käänny hitaasti täysi ympyrä löytääksesi ne kaikki.</string>
+
+    <string name="ar_compass_onboarding_title">Katso ympärillesi silmien korkeudella</string>
+
+    <string name="ar_compass_tilt_hint">Suuntaa kamera kohti horisonttia nähdäksesi suuntamerkit</string>
+
+
+    <string name="ar_compass_instructions">Käänny hitaasti ja katso ympärillesi nähdäksesi tilaan ankkuroidut suuntamerkit.</string>
+
+    <string name="ar_compass_heading_label">Suunta</string>
+
+
+    <string name="version">Versio</string>
+    <string name="about">Tietoja</string>
+
+    <string name="usage_resources">Verkkosivusto</string>
+
+    <string name="emaildeveloper">Lähetä sähköpostia kehittäjälle</string>
+
+    <string name="feedback">Palaute</string>
+
+    <string name="heatmap_summary">Näytä lämpökartan asteikko.</string>
+
+
+    <string name="heatmap">Lämpökartta</string>
+
+    <string name="numeric_description">Näytä magneettikentän numeerinen arvo nuolien tai pallojen yläpuolella.</string>
+
+    <string name="numerical_value">Numeerinen arvo</string>
+
+    <string name="visualization">Visualisointi</string>
+<string name="settings">Asetukset</string>
+
+
+
+
+    <string name="magna_ar_description">Magna-AR on kehitetty National Science Foundationin apurahan #NSF#1822728 tuella yhteistyössä seuraavien kumppaneiden kanssa:</string>
+
+    <string name="back">TAKAISIN</string>
+
+
+    <string name="meet_team">Tapaa tiimi</string>
+
+    <string name="unknown_tracking_failure_reason">Tuntematon seurannan epäonnistumisen syy: %1$s</string>
+
+    <string name="insufficient_features_message">Ei löydy mitään. Tähtää laitetta pintaan, jossa on enemmän tekstuuria tai väriä.</string>
+
+    <string name="excessive_motion_message">Liikut liian nopeasti. Hidasta.</string>
+
+    <string name="insufficient_light_message">Liian pimeää. Yritä siirtyä hyvin valaistulle alueelle.</string>
+
+    <string name="bad_state_message">Seuranta katosi huonon sisäisen tilan vuoksi. Yritä käynnistää AR-kokemus uudelleen.</string>
+
+    <string name="no_email_app_found">Sähköpostisovellusta ei ole asennettu. Voit ottaa meihin yhteyttä osoitteessa %1$s</string>
+    </resources>
